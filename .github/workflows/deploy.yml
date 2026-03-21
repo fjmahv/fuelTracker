@@ -3,7 +3,7 @@ name: Deploy to Cloudflare Workers
 on:
   push:
     branches:
-      - main  # Se activa cada vez que subes algo (como el JSON) a la rama main
+      - main
 
 jobs:
   deploy:
@@ -12,10 +12,10 @@ jobs:
       - name: Checkout del código
         uses: actions/checkout@v4
 
-      - name: Configurar Node.js
+      - name: Configurar Node.js (v24)
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24 # Actualizado para evitar la advertencia de depreciación
 
       - name: Instalar dependencias
         run: npm install
@@ -23,8 +23,13 @@ jobs:
       - name: Construir aplicación (Build)
         run: npm run build
 
+      - name: Verificar carpeta dist
+        run: ls -R dist # Esto nos asegura en los logs que los archivos se crearon
+
       - name: Desplegar a Cloudflare Workers
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          # Forzamos el comando de despliegue directo de assets para Workers
+          command: deploy --assets ./dist
