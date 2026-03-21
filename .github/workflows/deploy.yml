@@ -12,24 +12,20 @@ jobs:
       - name: Checkout del código
         uses: actions/checkout@v4
 
-      - name: Configurar Node.js (v24)
+      - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 24 # Actualizado para evitar la advertencia de depreciación
+          node-version: 24
 
       - name: Instalar dependencias
         run: npm install
 
-      - name: Construir aplicación (Build)
+      - name: Construir aplicación
         run: npm run build
-
-      - name: Verificar carpeta dist
-        run: ls -R dist # Esto nos asegura en los logs que los archivos se crearon
 
       - name: Desplegar a Cloudflare Workers
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          # Forzamos el comando de despliegue directo de assets para Workers
-          command: deploy --assets ./dist
+          # Eliminamos el comando manual para que use el wrangler.toml
