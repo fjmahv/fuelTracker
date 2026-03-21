@@ -6,6 +6,8 @@ import {
 } from 'lucide-react';
 import { YearlyChart } from './YearlyChart';
 import { SpeedConsumptionChart } from './SpeedConsumptionChart';
+import { MonthlyChart } from './MonthlyChart';
+import { RefuelComparison } from './RefuelComparison';
 
 export const VehicleDetail = () => {
   const { vehicles, selectedVehicleId, selectVehicle } = useFuelStore();
@@ -14,7 +16,6 @@ export const VehicleDetail = () => {
   if (!vehicle) return null;
   const stats = vehicle.total_statistics;
 
-  // Cálculos matemáticos precisos usando los años en decimales
   const years = stats.yearsOfData || 1;
   const avgKmPerYear = stats.total_km / years;
   const avgKmBetween = stats.total_km / (stats.total_refuels || 1);
@@ -24,13 +25,11 @@ export const VehicleDetail = () => {
     { label: 'Total Litros', value: `${formatNumber(stats.total_litres, 0)} L`, icon: Droplets, color: 'text-cyan-400' },
     { label: 'Coste Total', value: `${formatNumber(stats.total_cost, 0)} €`, icon: Banknote, color: 'text-emerald-400' },
     { label: 'Consumo Medio', value: `${stats.average_consumption_l_per_100km} L/100`, icon: Zap, color: 'text-orange-400' },
-    // Control condicional para la velocidad usando el dato directo
     { label: 'Velocidad Media', value: stats.average_speed_km_per_h ? `${stats.average_speed_km_per_h} km/h` : 'Sin Telemetría', icon: Gauge, color: 'text-purple-400' },
     { label: 'Años de Datos', value: `${years} años`, icon: CalendarClock, color: 'text-slate-400' },
   ];
 
   const secondRow = [
-    // Fechas deterministas formatedas a formato local (ej. 20/05/2010)
     { label: 'Primer Repostaje', value: new Date(stats.first_refuel_date).toLocaleDateString('es-ES'), icon: CalendarDays, color: 'text-slate-500' },
     { label: 'Último Repostaje', value: new Date(stats.last_refuel_date).toLocaleDateString('es-ES'), icon: CalendarDays, color: 'text-cyan-500' },
     { label: 'Total Repostajes', value: stats.total_refuels, icon: Hash, color: 'text-indigo-400' },
@@ -50,17 +49,28 @@ export const VehicleDetail = () => {
 
   return (
     <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
-      <button onClick={() => selectVehicle(null)} className="flex items-center gap-2 text-slate-400 hover:text-cyan-400 mb-6 transition-colors">
-        <ArrowLeft className="w-4 h-4" /> Volver al Dashboard
+      <button 
+        onClick={() => selectVehicle(null)} 
+        className="flex items-center gap-2 text-slate-400 hover:text-cyan-400 mb-6 transition-colors group"
+      >
+        <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" /> Volver al Dashboard
       </button>
 
       <div className="flex items-center gap-6 mb-8 bg-dark-card/30 p-6 rounded-3xl border border-slate-800/20">
         <div className="bg-white/90 p-3 rounded-2xl shadow-lg border border-slate-700 w-20 h-20 flex items-center justify-center shrink-0">
-          <img src={BRAND_LOGOS[vehicle.car_details.brand] || BRAND_LOGOS['Audi']} className="w-14 h-14 object-contain" alt={vehicle.car_details.brand} />
+          <img 
+            src={BRAND_LOGOS[vehicle.car_details.brand] || BRAND_LOGOS['Audi']} 
+            className="w-14 h-14 object-contain" 
+            alt={vehicle.car_details.brand} 
+          />
         </div>
         <div>
-          <h2 className="text-4xl font-bold text-white tracking-tight">{vehicle.car_details.brand} <span className="text-cyan-500">{vehicle.car_details.model}</span></h2>
-          <p className="text-slate-500 font-mono mt-1">{vehicle.car_details.number_plate} • {vehicle.car_details.fuel_type}</p>
+          <h2 className="text-4xl font-bold text-white tracking-tight">
+            {vehicle.car_details.brand} <span className="text-cyan-500">{vehicle.car_details.model}</span>
+          </h2>
+          <p className="text-slate-500 font-mono mt-1">
+            {vehicle.car_details.number_plate} • {vehicle.car_details.fuel_type}
+          </p>
         </div>
       </div>
 
@@ -73,14 +83,30 @@ export const VehicleDetail = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
-        <div className="bg-dark-card p-6 rounded-3xl border border-slate-800 shadow-xl">
-            <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6 px-2">Evolución de Distancia Anual</h3>
-            <YearlyChart data={stats.yearly_history} />
+      <div className="space-y-8 mb-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="bg-dark-card p-6 rounded-3xl border border-slate-800 shadow-xl">
+              <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6 px-2">Evolución de Distancia Anual</h3>
+              <YearlyChart data={stats.yearly_history} />
+          </div>
+          <div className="bg-dark-card p-6 rounded-3xl border border-slate-800 shadow-xl">
+              <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6 px-2">Promedio de Distancia Mensual</h3>
+              <MonthlyChart data={stats.monthly_history} />
+          </div>
         </div>
-        <div className="bg-dark-card p-6 rounded-3xl border border-slate-800 shadow-xl">
-            <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6 px-2">Eficiencia por Rango de Velocidad</h3>
-            <SpeedConsumptionChart data={vehicle.speedRanges} />
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+          <div className="bg-dark-card p-8 rounded-3xl border border-slate-800 shadow-xl flex flex-col">
+              <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-8 px-2">Eficiencia por Rango de Velocidad</h3>
+              <div className="flex-grow">
+                  <SpeedConsumptionChart data={vehicle.speedData} />
+              </div>
+          </div>
+          
+          <div className="bg-dark-card p-8 rounded-3xl border border-slate-800 shadow-xl flex flex-col">
+              <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-8 px-2">Comparativa de Rendimiento</h3>
+              <RefuelComparison data={vehicle.recentComparison} />
+          </div>
         </div>
       </div>
     </div>
