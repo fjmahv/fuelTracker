@@ -1,21 +1,257 @@
 {
   "metadata": {
-    "generated_at": "2026-03-17T18:11:58.114618Z",
+    "generated_at": "2026-03-21T20:11:50.590412Z",
     "data_period": {
       "first_refuel": "2010-05-20",
-      "last_refuel": "2026-03-01",
-      "total_days": 5764
+      "last_refuel": "2026-03-16",
+      "total_days": 5779
     }
   },
   "global_statistics": {
     "all_vehicles": {
-      "total_km": 437789.0,
-      "total_litres": 32991.7,
-      "total_cost": 45295.91,
-      "total_refuels": 594,
+      "total_km": 440363.0,
+      "total_litres": 33188.4,
+      "total_cost": 45673.2,
+      "total_refuels": 597,
       "average_consumption_l_per_100km": 7.52,
+      "yearly_history": [
+        {
+          "year": 2010,
+          "total_km": 18328.0,
+          "total_litres": 1382.0,
+          "total_cost": 1559.29,
+          "average_consumption_l_per_100km": 7.54,
+          "number_of_refuels": 34
+        },
+        {
+          "year": 2011,
+          "total_km": 27830.0,
+          "total_litres": 2043.0,
+          "total_cost": 2624.22,
+          "average_consumption_l_per_100km": 7.34,
+          "number_of_refuels": 48
+        },
+        {
+          "year": 2012,
+          "total_km": 31557.0,
+          "total_litres": 2235.0,
+          "total_cost": 3087.27,
+          "average_consumption_l_per_100km": 7.08,
+          "number_of_refuels": 48
+        },
+        {
+          "year": 2013,
+          "total_km": 30582.0,
+          "total_litres": 2214.4,
+          "total_cost": 3094.54,
+          "average_consumption_l_per_100km": 7.24,
+          "number_of_refuels": 41
+        },
+        {
+          "year": 2014,
+          "total_km": 32857.0,
+          "total_litres": 2375.8,
+          "total_cost": 3205.2,
+          "average_consumption_l_per_100km": 7.23,
+          "number_of_refuels": 44
+        },
+        {
+          "year": 2015,
+          "total_km": 24490.0,
+          "total_litres": 1797.3,
+          "total_cost": 2099.19,
+          "average_consumption_l_per_100km": 7.34,
+          "number_of_refuels": 30
+        },
+        {
+          "year": 2016,
+          "total_km": 28185.0,
+          "total_litres": 2133.2,
+          "total_cost": 2283.8,
+          "average_consumption_l_per_100km": 7.43,
+          "number_of_refuels": 38
+        },
+        {
+          "year": 2017,
+          "total_km": 25554.0,
+          "total_litres": 1933.9,
+          "total_cost": 2189.07,
+          "average_consumption_l_per_100km": 7.57,
+          "number_of_refuels": 35
+        },
+        {
+          "year": 2018,
+          "total_km": 31327.0,
+          "total_litres": 2317.1,
+          "total_cost": 2887.5,
+          "average_consumption_l_per_100km": 7.4,
+          "number_of_refuels": 41
+        },
+        {
+          "year": 2019,
+          "total_km": 26124.0,
+          "total_litres": 2114.0,
+          "total_cost": 2729.05,
+          "average_consumption_l_per_100km": 8.09,
+          "number_of_refuels": 35
+        },
+        {
+          "year": 2020,
+          "total_km": 15170.0,
+          "total_litres": 1211.7,
+          "total_cost": 1458.23,
+          "average_consumption_l_per_100km": 7.99,
+          "number_of_refuels": 19
+        },
+        {
+          "year": 2021,
+          "total_km": 22395.0,
+          "total_litres": 1786.6,
+          "total_cost": 2538.42,
+          "average_consumption_l_per_100km": 7.98,
+          "number_of_refuels": 29
+        },
+        {
+          "year": 2022,
+          "total_km": 27052.0,
+          "total_litres": 2146.1,
+          "total_cost": 3964.87,
+          "average_consumption_l_per_100km": 7.94,
+          "number_of_refuels": 35
+        },
+        {
+          "year": 2023,
+          "total_km": 34129.0,
+          "total_litres": 2660.6,
+          "total_cost": 4341.9,
+          "average_consumption_l_per_100km": 7.8,
+          "number_of_refuels": 42
+        },
+        {
+          "year": 2024,
+          "total_km": 25965.0,
+          "total_litres": 1996.7,
+          "total_cost": 3136.45,
+          "average_consumption_l_per_100km": 7.69,
+          "number_of_refuels": 31
+        },
+        {
+          "year": 2025,
+          "total_km": 25331.0,
+          "total_litres": 1843.6,
+          "total_cost": 2858.8,
+          "average_consumption_l_per_100km": 7.1,
+          "number_of_refuels": 30
+        },
+        {
+          "year": 2026,
+          "total_km": 13487.0,
+          "total_litres": 997.4,
+          "total_cost": 1615.4,
+          "average_consumption_l_per_100km": 7.4,
+          "number_of_refuels": 17
+        }
+      ],
+      "monthly_history": [
+        {
+          "month_id": 1,
+          "month_name": "Enero",
+          "average_km": 7870.5,
+          "average_consumption": 7.03,
+          "average_refuels": 11,
+          "average_speed": 60.84
+        },
+        {
+          "month_id": 2,
+          "month_name": "Febrero",
+          "average_km": 8217.3,
+          "average_consumption": 7.55,
+          "average_refuels": 13,
+          "average_speed": 53.33
+        },
+        {
+          "month_id": 3,
+          "month_name": "Marzo",
+          "average_km": 7641.3,
+          "average_consumption": 7.51,
+          "average_refuels": 9,
+          "average_speed": 59.33
+        },
+        {
+          "month_id": 4,
+          "month_name": "Abril",
+          "average_km": 6644.5,
+          "average_consumption": 7.48,
+          "average_refuels": 9,
+          "average_speed": 46.41
+        },
+        {
+          "month_id": 5,
+          "month_name": "Mayo",
+          "average_km": 7035.5,
+          "average_consumption": 7.36,
+          "average_refuels": 9,
+          "average_speed": 48.3
+        },
+        {
+          "month_id": 6,
+          "month_name": "Junio",
+          "average_km": 6860.6,
+          "average_consumption": 7.47,
+          "average_refuels": 8,
+          "average_speed": 56.48
+        },
+        {
+          "month_id": 7,
+          "month_name": "Julio",
+          "average_km": 11594.3,
+          "average_consumption": 7.1,
+          "average_refuels": 14,
+          "average_speed": 52.44
+        },
+        {
+          "month_id": 8,
+          "month_name": "Agosto",
+          "average_km": 11499.4,
+          "average_consumption": 7.25,
+          "average_refuels": 14,
+          "average_speed": 71.42
+        },
+        {
+          "month_id": 9,
+          "month_name": "Septiembre",
+          "average_km": 7199.9,
+          "average_consumption": 6.93,
+          "average_refuels": 10,
+          "average_speed": 60.06
+        },
+        {
+          "month_id": 10,
+          "month_name": "Octubre",
+          "average_km": 6663.3,
+          "average_consumption": 7.17,
+          "average_refuels": 11,
+          "average_speed": 43.35
+        },
+        {
+          "month_id": 11,
+          "month_name": "Noviembre",
+          "average_km": 5006.7,
+          "average_consumption": 7.29,
+          "average_refuels": 5,
+          "average_speed": 41.54
+        },
+        {
+          "month_id": 12,
+          "month_name": "Diciembre",
+          "average_km": 8511.3,
+          "average_consumption": 7.59,
+          "average_refuels": 12,
+          "average_speed": 45.87
+        }
+      ],
       "monthly_averages": {
-        "average_speed_km_per_h": 55.7
+        "average_speed_km_per_h": 56.02
       }
     }
   },
@@ -269,36 +505,6 @@
           }
         ],
         "consumption_by_speed_range": [],
-        "recent_refuels_comparison": [
-          {
-            "date": "2024-11-09",
-            "consumption": 8.68,
-            "speed": 0.0,
-            "historical_month_avg_consumption": 8.31,
-            "historical_month_avg_speed": 0
-          },
-          {
-            "date": "2024-12-06",
-            "consumption": 8.21,
-            "speed": 0.0,
-            "historical_month_avg_consumption": 8.34,
-            "historical_month_avg_speed": 0
-          },
-          {
-            "date": "2025-01-12",
-            "consumption": 8.81,
-            "speed": 0.0,
-            "historical_month_avg_consumption": 8.14,
-            "historical_month_avg_speed": 0
-          },
-          {
-            "date": "2025-01-31",
-            "consumption": 8.08,
-            "speed": 0.0,
-            "historical_month_avg_consumption": 8.14,
-            "historical_month_avg_speed": 0
-          }
-        ],
         "monthly_averages": {
           "average_km_per_month": 1042.3
         }
@@ -489,36 +695,6 @@
           }
         ],
         "consumption_by_speed_range": [],
-        "recent_refuels_comparison": [
-          {
-            "date": "2017-12-28",
-            "consumption": 6.42,
-            "speed": 0.0,
-            "historical_month_avg_consumption": 6.56,
-            "historical_month_avg_speed": 0
-          },
-          {
-            "date": "2018-02-24",
-            "consumption": 6.44,
-            "speed": 0.0,
-            "historical_month_avg_consumption": 6.46,
-            "historical_month_avg_speed": 0
-          },
-          {
-            "date": "2018-02-28",
-            "consumption": 5.75,
-            "speed": 0.0,
-            "historical_month_avg_consumption": 6.46,
-            "historical_month_avg_speed": 0
-          },
-          {
-            "date": "2018-03-13",
-            "consumption": 6.4,
-            "speed": 0.0,
-            "historical_month_avg_consumption": 6.19,
-            "historical_month_avg_speed": 0
-          }
-        ],
         "monthly_averages": {
           "average_km_per_month": 664.0
         }
@@ -709,36 +885,6 @@
             "range_label": "> 95 km/h",
             "average_consumption": 7.39,
             "number_of_refuels": 9
-          }
-        ],
-        "recent_refuels_comparison": [
-          {
-            "date": "2018-08-08",
-            "consumption": 7.52,
-            "speed": 70.23,
-            "historical_month_avg_consumption": 7.35,
-            "historical_month_avg_speed": 65.13
-          },
-          {
-            "date": "2018-08-12",
-            "consumption": 7.54,
-            "speed": 76.37,
-            "historical_month_avg_consumption": 7.35,
-            "historical_month_avg_speed": 65.13
-          },
-          {
-            "date": "2018-08-26",
-            "consumption": 7.12,
-            "speed": 75.77,
-            "historical_month_avg_consumption": 7.35,
-            "historical_month_avg_speed": 65.13
-          },
-          {
-            "date": "2018-09-15",
-            "consumption": 7.18,
-            "speed": 57.39,
-            "historical_month_avg_consumption": 7.24,
-            "historical_month_avg_speed": 66.24
           }
         ],
         "monthly_averages": {
@@ -934,36 +1080,6 @@
             "number_of_refuels": 7
           }
         ],
-        "recent_refuels_comparison": [
-          {
-            "date": "2022-08-27",
-            "consumption": 7.34,
-            "speed": 78.77,
-            "historical_month_avg_consumption": 7.77,
-            "historical_month_avg_speed": 75.47
-          },
-          {
-            "date": "2022-09-08",
-            "consumption": 7.3,
-            "speed": 55.91,
-            "historical_month_avg_consumption": 7.54,
-            "historical_month_avg_speed": 64.91
-          },
-          {
-            "date": "2022-09-15",
-            "consumption": 7.6,
-            "speed": 79.82,
-            "historical_month_avg_consumption": 7.54,
-            "historical_month_avg_speed": 64.91
-          },
-          {
-            "date": "2022-09-30",
-            "consumption": 7.49,
-            "speed": 54.6,
-            "historical_month_avg_consumption": 7.54,
-            "historical_month_avg_speed": 64.91
-          }
-        ],
         "monthly_averages": {
           "average_km_per_month": 1179.1
         },
@@ -983,13 +1099,13 @@
       "has_temporal_data": true,
       "number_of_periods": 1,
       "total_statistics": {
-        "total_km": 59892.0,
-        "total_litres": 4390.1,
-        "total_cost": 6968.35,
+        "total_km": 62466.0,
+        "total_litres": 4586.8,
+        "total_cost": 7345.64,
         "first_refuel_date": "2022-10-20",
-        "last_refuel_date": "2026-03-01",
-        "average_consumption_l_per_100km": 7.33,
-        "total_refuels": 65,
+        "last_refuel_date": "2026-03-16",
+        "average_consumption_l_per_100km": 7.34,
+        "total_refuels": 68,
         "yearly_history": [
           {
             "year": 2022,
@@ -1025,11 +1141,11 @@
           },
           {
             "year": 2026,
-            "total_km": 7704.0,
-            "total_litres": 597.3,
-            "total_cost": 927.94,
-            "average_consumption_l_per_100km": 7.75,
-            "number_of_refuels": 9
+            "total_km": 10278.0,
+            "total_litres": 794.0,
+            "total_cost": 1305.23,
+            "average_consumption_l_per_100km": 7.73,
+            "number_of_refuels": 12
           }
         ],
         "monthly_history": [
@@ -1052,10 +1168,10 @@
           {
             "month_id": 3,
             "month_name": "Marzo",
-            "average_km": 1755.2,
-            "average_consumption": 7.33,
-            "average_refuels": 2,
-            "average_speed": 65.31
+            "average_km": 2398.8,
+            "average_consumption": 7.41,
+            "average_refuels": 3,
+            "average_speed": 71.85
           },
           {
             "month_id": 4,
@@ -1148,49 +1264,19 @@
           },
           {
             "range_label": "76-95 km/h",
-            "average_consumption": 7.39,
-            "number_of_refuels": 18
+            "average_consumption": 7.4,
+            "number_of_refuels": 19
           },
           {
             "range_label": "> 95 km/h",
-            "average_consumption": 7.52,
-            "number_of_refuels": 4
-          }
-        ],
-        "recent_refuels_comparison": [
-          {
-            "date": "2026-02-20",
-            "consumption": 8.35,
-            "speed": 95.67,
-            "historical_month_avg_consumption": 7.73,
-            "historical_month_avg_speed": 66.98
-          },
-          {
-            "date": "2026-02-23",
-            "consumption": 7.31,
-            "speed": 94.57,
-            "historical_month_avg_consumption": 7.73,
-            "historical_month_avg_speed": 66.98
-          },
-          {
-            "date": "2026-02-28",
-            "consumption": 7.87,
-            "speed": 81.0,
-            "historical_month_avg_consumption": 7.73,
-            "historical_month_avg_speed": 66.98
-          },
-          {
-            "date": "2026-03-01",
-            "consumption": 6.69,
-            "speed": 91.72,
-            "historical_month_avg_consumption": 7.33,
-            "historical_month_avg_speed": 65.31
+            "average_consumption": 7.55,
+            "number_of_refuels": 6
           }
         ],
         "monthly_averages": {
-          "average_km_per_month": 1484.6
+          "average_km_per_month": 1529.7
         },
-        "lifetime_average_speed_km_per_h": 61.29
+        "lifetime_average_speed_km_per_h": 62.27
       }
     },
     {
@@ -1322,36 +1408,6 @@
             "range_label": "> 95 km/h",
             "average_consumption": 6.04,
             "number_of_refuels": 1
-          }
-        ],
-        "recent_refuels_comparison": [
-          {
-            "date": "2026-01-08",
-            "consumption": 6.04,
-            "speed": 107.41,
-            "historical_month_avg_consumption": 6.22,
-            "historical_month_avg_speed": 61.54
-          },
-          {
-            "date": "2026-01-21",
-            "consumption": 6.25,
-            "speed": 52.61,
-            "historical_month_avg_consumption": 6.22,
-            "historical_month_avg_speed": 61.54
-          },
-          {
-            "date": "2026-01-23",
-            "consumption": 6.09,
-            "speed": 91.13,
-            "historical_month_avg_consumption": 6.22,
-            "historical_month_avg_speed": 61.54
-          },
-          {
-            "date": "2026-02-14",
-            "consumption": 6.95,
-            "speed": 29.72,
-            "historical_month_avg_consumption": 6.91,
-            "historical_month_avg_speed": 32.3
           }
         ],
         "monthly_averages": {
