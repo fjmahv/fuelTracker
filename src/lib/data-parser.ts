@@ -8,19 +8,11 @@ export function parseFuelData(jsonData: any) {
 
   const processedVehicles = jsonData.vehicles.map((v: any) => {
     const stats = v.total_statistics;
-    const comparison = stats.recent_refuels_comparison || [];
-    
-    // 1. Cálculos para el Widget de Comparativa Reciente
-    const latest = comparison[comparison.length - 1] || {};
-    const last3 = comparison.slice(-3);
-    
-    const avg3 = {
-      consumption: last3.length > 0 ? parseFloat((last3.reduce((a: any, b: any) => a + b.consumption, 0) / last3.length).toFixed(2)) : 0,
-      speed: last3.length > 0 ? parseFloat((last3.reduce((a: any, b: any) => a + b.speed, 0) / last3.length).toFixed(1)) : 0
-    };
+    const comparison = stats.recent_refuels_comparison || {};
 
-    const monthNames = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
-    const lastMonthName = latest.date ? monthNames[new Date(latest.date).getMonth()] : "Mes";
+    const latest = comparison.last_refuel || {};
+    const avg3 = comparison.last_3_refuels_average || {};
+    const historical = comparison.historical_month_average || {};
 
     // 2. Fechas y años deterministas
     const vFirstDate = new Date(stats.first_refuel_date).getTime();
@@ -33,18 +25,26 @@ export function parseFuelData(jsonData: any) {
     return {
       ...v,
       speedData,
-      // Inyectamos el objeto procesado para la UI
       recentComparison: {
-        latest: { 
-          consumption: latest.consumption, 
-          speed: latest.speed,
-          date: latest.date 
+        latest: {
+          consumption: latest.consumption ?? 0,
+          speed: latest.speed ?? 0,
+          distance_km: latest.distance_km ?? 0,
+          date: latest.date ?? null
         },
-        avg3,
+        avg3: {
+          consumption: avg3.consumption ?? 0,
+          speed: avg3.speed ?? 0,
+          distance_km: avg3.distance_km ?? 0,
+          refuels_count: avg3.refuels_count ?? 0
+        },
         historical: {
-          consumption: latest.historical_month_avg_consumption,
-          speed: latest.historical_month_avg_speed,
-          monthName: lastMonthName
+          consumption: historical.consumption ?? 0,
+          speed: historical.speed ?? 0,
+          distance_km: historical.distance_km ?? 0,
+          refuels_count: historical.refuels_count ?? 0,
+          monthName: historical.month_name ?? 'Mes',
+          monthId: historical.month_id ?? null
         }
       },
       total_statistics: {
