@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-04-13T20:00:01.712873Z",
+    "generated_at": "2026-04-18T17:31:27.338914Z",
     "data_period": {
       "first_refuel": "2010-05-20",
       "last_refuel": "2026-04-13",
@@ -269,40 +269,28 @@
           }
         ],
         "consumption_by_speed_range": [],
-        "recent_refuels_comparison": [
-          {
-            "date": "2024-11-09",
-            "consumption": 8.68,
-            "speed": 0.0,
-            "refuel_partial_mileage": 812.0,
-            "historical_month_avg_consumption": 8.31,
-            "historical_month_avg_speed": 0
-          },
-          {
-            "date": "2024-12-06",
-            "consumption": 8.21,
-            "speed": 0.0,
-            "refuel_partial_mileage": 816.0,
-            "historical_month_avg_consumption": 8.34,
-            "historical_month_avg_speed": 0
-          },
-          {
-            "date": "2025-01-12",
-            "consumption": 8.81,
-            "speed": 0.0,
-            "refuel_partial_mileage": 720.0,
-            "historical_month_avg_consumption": 8.14,
-            "historical_month_avg_speed": 0
-          },
-          {
+        "recent_refuels_comparison": {
+          "last_refuel": {
             "date": "2025-01-31",
             "consumption": 8.08,
-            "speed": 0.0,
-            "refuel_partial_mileage": 842.0,
-            "historical_month_avg_consumption": 8.14,
-            "historical_month_avg_speed": 0
+            "speed": 0,
+            "distance_km": 842.0
+          },
+          "last_3_refuels_average": {
+            "refuels_count": 3,
+            "consumption": 8.56,
+            "speed": 0,
+            "distance_km": 782.7
+          },
+          "historical_month_average": {
+            "month_id": 1,
+            "month_name": "Enero",
+            "refuels_count": 20,
+            "consumption": 8.14,
+            "speed": 0,
+            "distance_km": 713.9
           }
-        ],
+        },
         "monthly_averages": {
           "average_km_per_month": 1042.3
         }
@@ -493,40 +481,28 @@
           }
         ],
         "consumption_by_speed_range": [],
-        "recent_refuels_comparison": [
-          {
-            "date": "2017-12-28",
-            "consumption": 6.42,
-            "speed": 0.0,
-            "refuel_partial_mileage": 666.0,
-            "historical_month_avg_consumption": 6.56,
-            "historical_month_avg_speed": 0
-          },
-          {
-            "date": "2018-02-24",
-            "consumption": 6.44,
-            "speed": 0.0,
-            "refuel_partial_mileage": 705.0,
-            "historical_month_avg_consumption": 6.46,
-            "historical_month_avg_speed": 0
-          },
-          {
-            "date": "2018-02-28",
-            "consumption": 5.75,
-            "speed": 0.0,
-            "refuel_partial_mileage": 739.0,
-            "historical_month_avg_consumption": 6.46,
-            "historical_month_avg_speed": 0
-          },
-          {
+        "recent_refuels_comparison": {
+          "last_refuel": {
             "date": "2018-03-13",
             "consumption": 6.4,
-            "speed": 0.0,
-            "refuel_partial_mileage": 621.0,
-            "historical_month_avg_consumption": 6.19,
-            "historical_month_avg_speed": 0
+            "speed": 0,
+            "distance_km": 621.0
+          },
+          "last_3_refuels_average": {
+            "refuels_count": 3,
+            "consumption": 6.19,
+            "speed": 0,
+            "distance_km": 703.3
+          },
+          "historical_month_average": {
+            "month_id": 3,
+            "month_name": "Marzo",
+            "refuels_count": 8,
+            "consumption": 6.19,
+            "speed": 0,
+            "distance_km": 653.4
           }
-        ],
+        },
         "monthly_averages": {
           "average_km_per_month": 664.0
         }
@@ -719,40 +695,28 @@
             "number_of_refuels": 9
           }
         ],
-        "recent_refuels_comparison": [
-          {
-            "date": "2018-08-08",
-            "consumption": 7.52,
-            "speed": 70.23,
-            "refuel_partial_mileage": 810.0,
-            "historical_month_avg_consumption": 7.35,
-            "historical_month_avg_speed": 65.13
-          },
-          {
-            "date": "2018-08-12",
-            "consumption": 7.54,
-            "speed": 76.37,
-            "refuel_partial_mileage": 919.0,
-            "historical_month_avg_consumption": 7.35,
-            "historical_month_avg_speed": 65.13
-          },
-          {
-            "date": "2018-08-26",
-            "consumption": 7.12,
-            "speed": 75.77,
-            "refuel_partial_mileage": 663.0,
-            "historical_month_avg_consumption": 7.35,
-            "historical_month_avg_speed": 65.13
-          },
-          {
+        "recent_refuels_comparison": {
+          "last_refuel": {
             "date": "2018-09-15",
             "consumption": 7.18,
             "speed": 57.39,
-            "refuel_partial_mileage": 881.0,
-            "historical_month_avg_consumption": 7.24,
-            "historical_month_avg_speed": 66.24
+            "distance_km": 881.0
+          },
+          "last_3_refuels_average": {
+            "refuels_count": 3,
+            "consumption": 7.42,
+            "speed": 74.02,
+            "distance_km": 797.3
+          },
+          "historical_month_average": {
+            "month_id": 9,
+            "month_name": "Septiembre",
+            "refuels_count": 3,
+            "consumption": 7.24,
+            "speed": 66.24,
+            "distance_km": 849.7
           }
-        ],
+        },
         "monthly_averages": {
           "average_km_per_month": 1469.4
         },
@@ -946,40 +910,28 @@
             "number_of_refuels": 7
           }
         ],
-        "recent_refuels_comparison": [
-          {
-            "date": "2022-08-27",
-            "consumption": 7.34,
-            "speed": 78.77,
-            "refuel_partial_mileage": 877.0,
-            "historical_month_avg_consumption": 7.77,
-            "historical_month_avg_speed": 75.47
-          },
-          {
-            "date": "2022-09-08",
-            "consumption": 7.3,
-            "speed": 55.91,
-            "refuel_partial_mileage": 917.0,
-            "historical_month_avg_consumption": 7.54,
-            "historical_month_avg_speed": 64.91
-          },
-          {
-            "date": "2022-09-15",
-            "consumption": 7.6,
-            "speed": 79.82,
-            "refuel_partial_mileage": 870.0,
-            "historical_month_avg_consumption": 7.54,
-            "historical_month_avg_speed": 64.91
-          },
-          {
+        "recent_refuels_comparison": {
+          "last_refuel": {
             "date": "2022-09-30",
             "consumption": 7.49,
             "speed": 54.6,
-            "refuel_partial_mileage": 870.0,
-            "historical_month_avg_consumption": 7.54,
-            "historical_month_avg_speed": 64.91
+            "distance_km": 870.0
+          },
+          "last_3_refuels_average": {
+            "refuels_count": 3,
+            "consumption": 7.41,
+            "speed": 69.31,
+            "distance_km": 888.0
+          },
+          "historical_month_average": {
+            "month_id": 9,
+            "month_name": "Septiembre",
+            "refuels_count": 6,
+            "consumption": 7.54,
+            "speed": 64.91,
+            "distance_km": 875.3
           }
-        ],
+        },
         "monthly_averages": {
           "average_km_per_month": 1179.1
         },
@@ -1173,40 +1125,28 @@
             "number_of_refuels": 7
           }
         ],
-        "recent_refuels_comparison": [
-          {
-            "date": "2026-03-16",
-            "consumption": 7.22,
-            "speed": 112.44,
-            "refuel_partial_mileage": 744.0,
-            "historical_month_avg_consumption": 7.43,
-            "historical_month_avg_speed": 73.02
-          },
-          {
-            "date": "2026-03-29",
-            "consumption": 7.6,
-            "speed": 87.29,
-            "refuel_partial_mileage": 950.0,
-            "historical_month_avg_consumption": 7.43,
-            "historical_month_avg_speed": 73.02
-          },
-          {
-            "date": "2026-04-10",
-            "consumption": 7.27,
-            "speed": 64.53,
-            "refuel_partial_mileage": 1069.0,
-            "historical_month_avg_consumption": 7.3,
-            "historical_month_avg_speed": 74.08
-          },
-          {
+        "recent_refuels_comparison": {
+          "last_refuel": {
             "date": "2026-04-13",
             "consumption": 7.52,
             "speed": 96.31,
-            "refuel_partial_mileage": 817.0,
-            "historical_month_avg_consumption": 7.3,
-            "historical_month_avg_speed": 74.08
+            "distance_km": 817.0
+          },
+          "last_3_refuels_average": {
+            "refuels_count": 3,
+            "consumption": 7.37,
+            "speed": 81.11,
+            "distance_km": 921.0
+          },
+          "historical_month_average": {
+            "month_id": 4,
+            "month_name": "Abril",
+            "refuels_count": 3,
+            "consumption": 7.3,
+            "speed": 74.08,
+            "distance_km": 808.7
           }
-        ],
+        },
         "monthly_averages": {
           "average_km_per_month": 1564.0
         },
@@ -1352,40 +1292,28 @@
             "number_of_refuels": 1
           }
         ],
-        "recent_refuels_comparison": [
-          {
-            "date": "2026-01-23",
-            "consumption": 6.09,
-            "speed": 91.13,
-            "refuel_partial_mileage": 565.0,
-            "historical_month_avg_consumption": 6.22,
-            "historical_month_avg_speed": 61.54
-          },
-          {
-            "date": "2026-02-14",
-            "consumption": 6.95,
-            "speed": 29.72,
-            "refuel_partial_mileage": 530.0,
-            "historical_month_avg_consumption": 6.91,
-            "historical_month_avg_speed": 32.3
-          },
-          {
-            "date": "2026-03-27",
-            "consumption": 8.53,
-            "speed": 21.11,
-            "refuel_partial_mileage": 505.0,
-            "historical_month_avg_consumption": 8.53,
-            "historical_month_avg_speed": 21.11
-          },
-          {
+        "recent_refuels_comparison": {
+          "last_refuel": {
             "date": "2026-04-04",
             "consumption": 5.25,
             "speed": 79.08,
-            "refuel_partial_mileage": 485.0,
-            "historical_month_avg_consumption": 6.84,
-            "historical_month_avg_speed": 30.4
+            "distance_km": 485.0
+          },
+          "last_3_refuels_average": {
+            "refuels_count": 3,
+            "consumption": 7.14,
+            "speed": 33.37,
+            "distance_km": 533.3
+          },
+          "historical_month_average": {
+            "month_id": 4,
+            "month_name": "Abril",
+            "refuels_count": 2,
+            "consumption": 6.84,
+            "speed": 30.4,
+            "distance_km": 518.0
           }
-        ],
+        },
         "monthly_averages": {
           "average_km_per_month": 797.7
         },
