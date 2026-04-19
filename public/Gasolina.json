@@ -1,21 +1,21 @@
 {
   "metadata": {
-    "generated_at": "2026-04-18T17:31:27.338914Z",
+    "generated_at": "2026-04-19T11:00:01.587487Z",
     "data_period": {
       "first_refuel": "2010-05-20",
-      "last_refuel": "2026-04-13",
-      "total_days": 5807
+      "last_refuel": "2026-04-19",
+      "total_days": 5813
     }
   },
   "global_statistics": {
     "all_vehicles": {
-      "total_km": 444189.0,
-      "total_litres": 33468.4,
-      "total_cost": 46180.11,
-      "total_refuels": 602,
-      "average_consumption_l_per_100km": 7.52,
+      "total_km": 444955.0,
+      "total_litres": 33514.1,
+      "total_cost": 46254.64,
+      "total_refuels": 603,
+      "average_consumption_l_per_100km": 7.51,
       "monthly_averages": {
-        "average_speed_km_per_h": 56.05
+        "average_speed_km_per_h": 55.99
       }
     }
   },
@@ -1166,13 +1166,13 @@
       "has_temporal_data": true,
       "number_of_periods": 1,
       "total_statistics": {
-        "total_km": 11033.0,
-        "total_litres": 770.5,
-        "total_cost": 1216.74,
+        "total_km": 11799.0,
+        "total_litres": 816.2,
+        "total_cost": 1291.27,
         "first_refuel_date": "2025-02-07",
-        "last_refuel_date": "2026-04-04",
-        "average_consumption_l_per_100km": 6.57,
-        "total_refuels": 18,
+        "last_refuel_date": "2026-04-19",
+        "average_consumption_l_per_100km": 6.53,
+        "total_refuels": 19,
         "yearly_history": [
           {
             "year": 2025,
@@ -1184,11 +1184,11 @@
           },
           {
             "year": 2026,
-            "total_km": 4199.0,
-            "total_litres": 272.0,
-            "total_cost": 422.04,
-            "average_consumption_l_per_100km": 6.48,
-            "number_of_refuels": 7
+            "total_km": 4965.0,
+            "total_litres": 317.7,
+            "total_cost": 496.57,
+            "average_consumption_l_per_100km": 6.4,
+            "number_of_refuels": 8
           }
         ],
         "monthly_history": [
@@ -1219,10 +1219,10 @@
           {
             "month_id": 4,
             "month_name": "Abril",
-            "average_km": 518.0,
-            "average_consumption": 6.84,
-            "average_refuels": 1,
-            "average_speed": 30.4
+            "average_km": 901.0,
+            "average_consumption": 6.47,
+            "average_refuels": 2,
+            "average_speed": 34.68
           },
           {
             "month_id": 5,
@@ -1273,8 +1273,8 @@
           },
           {
             "range_label": "36-55 km/h",
-            "average_consumption": 6.25,
-            "number_of_refuels": 5
+            "average_consumption": 6.2,
+            "number_of_refuels": 6
           },
           {
             "range_label": "56-75 km/h",
@@ -1294,30 +1294,30 @@
         ],
         "recent_refuels_comparison": {
           "last_refuel": {
-            "date": "2026-04-04",
-            "consumption": 5.25,
-            "speed": 79.08,
-            "distance_km": 485.0
+            "date": "2026-04-19",
+            "consumption": 5.97,
+            "speed": 42.83,
+            "distance_km": 766.0
           },
           "last_3_refuels_average": {
             "refuels_count": 3,
-            "consumption": 7.14,
-            "speed": 33.37,
-            "distance_km": 533.3
+            "consumption": 6.93,
+            "speed": 31.74,
+            "distance_km": 506.7
           },
           "historical_month_average": {
             "month_id": 4,
             "month_name": "Abril",
-            "refuels_count": 2,
-            "consumption": 6.84,
-            "speed": 30.4,
-            "distance_km": 518.0
+            "refuels_count": 3,
+            "consumption": 6.47,
+            "speed": 34.68,
+            "distance_km": 600.7
           }
         },
         "monthly_averages": {
-          "average_km_per_month": 797.7
+          "average_km_per_month": 823.8
         },
-        "lifetime_average_speed_km_per_h": 37.14
+        "lifetime_average_speed_km_per_h": 37.47
       }
     }
   ]
