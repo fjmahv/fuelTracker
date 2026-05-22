@@ -1,6 +1,7 @@
 import { Header } from '../components/layout/Header';
 import { Footer } from '../components/layout/Footer';
 import { KPIGrid } from '../components/dashboard/KPIGrid';
+import { GlobalYearlyCharts } from '../components/dashboard/GlobalYearlyCharts';
 import { VehicleCards } from '../components/dashboard/VehicleCards';
 import { VehicleDetail } from '../components/detail/VehicleDetail';
 import { useFuelStore } from '../store/fuelStore';
@@ -28,7 +29,9 @@ export default function HomePage() {
 
             
             <KPIGrid />
-            
+
+            <GlobalYearlyCharts />
+
             <div className="mt-12 mb-6">
               <h3 className="text-xl font-bold text-white">Vehículos en el Garaje</h3>
             </div>
