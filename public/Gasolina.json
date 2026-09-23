@@ -1,21 +1,21 @@
 {
   "metadata": {
-    "generated_at": "2026-09-19T11:00:02.388801Z",
+    "generated_at": "2026-09-23T20:00:01.854993Z",
     "data_period": {
       "first_refuel": "2010-05-20",
-      "last_refuel": "2026-09-19",
-      "total_days": 5966
+      "last_refuel": "2026-09-21",
+      "total_days": 5968
     }
   },
   "global_statistics": {
     "all_vehicles": {
-      "total_km": 463600.0,
-      "total_litres": 34909.0,
-      "total_cost": 48719.98,
-      "total_refuels": 628,
+      "total_km": 464199.0,
+      "total_litres": 34950.6,
+      "total_cost": 48805.07,
+      "total_refuels": 629,
       "average_consumption_l_per_100km": 7.51,
       "monthly_averages": {
-        "average_speed_km_per_h": 56.58
+        "average_speed_km_per_h": 56.65
       }
     }
   },
@@ -951,13 +951,13 @@
       "has_temporal_data": true,
       "number_of_periods": 1,
       "total_statistics": {
-        "total_km": 81949.0,
-        "total_litres": 6039.8,
-        "total_cost": 9952.34,
+        "total_km": 82548.0,
+        "total_litres": 6081.4,
+        "total_cost": 10037.43,
         "first_refuel_date": "2022-10-20",
-        "last_refuel_date": "2026-09-19",
+        "last_refuel_date": "2026-09-21",
         "average_consumption_l_per_100km": 7.37,
-        "total_refuels": 92,
+        "total_refuels": 93,
         "yearly_history": [
           {
             "year": 2022,
@@ -993,11 +993,11 @@
           },
           {
             "year": 2026,
-            "total_km": 29761.0,
-            "total_litres": 2247.0,
-            "total_cost": 3911.93,
-            "average_consumption_l_per_100km": 7.55,
-            "number_of_refuels": 36
+            "total_km": 30360.0,
+            "total_litres": 2288.6,
+            "total_cost": 3997.02,
+            "average_consumption_l_per_100km": 7.54,
+            "number_of_refuels": 37
           }
         ],
         "monthly_history": [
@@ -1068,10 +1068,10 @@
           {
             "month_id": 9,
             "month_name": "Septiembre",
-            "average_km": 1573.3,
-            "average_consumption": 7.11,
+            "average_km": 1773.0,
+            "average_consumption": 7.09,
             "average_refuels": 2,
-            "average_speed": 66.84
+            "average_speed": 69.29
           },
           {
             "month_id": 10,
@@ -1121,36 +1121,36 @@
           },
           {
             "range_label": "> 95 km/h",
-            "average_consumption": 7.55,
-            "number_of_refuels": 14
+            "average_consumption": 7.52,
+            "number_of_refuels": 15
           }
         ],
         "recent_refuels_comparison": {
           "last_refuel": {
-            "date": "2026-09-19",
-            "consumption": 7.73,
-            "speed": 71.35,
-            "distance_km": 786.0
+            "date": "2026-09-21",
+            "consumption": 6.95,
+            "speed": 97.4,
+            "distance_km": 599.0
           },
           "last_3_refuels_average": {
             "refuels_count": 3,
-            "consumption": 7.47,
-            "speed": 68.56,
-            "distance_km": 835.3
+            "consumption": 7.69,
+            "speed": 75.51,
+            "distance_km": 758.0
           },
           "historical_month_average": {
             "month_id": 9,
             "month_name": "Septiembre",
-            "refuels_count": 5,
-            "consumption": 7.11,
-            "speed": 66.84,
-            "distance_km": 944.0
+            "refuels_count": 6,
+            "consumption": 7.09,
+            "speed": 69.29,
+            "distance_km": 886.5
           }
         },
         "monthly_averages": {
-          "average_km_per_month": 1744.4
+          "average_km_per_month": 1754.7
         },
-        "lifetime_average_speed_km_per_h": 64.99
+        "lifetime_average_speed_km_per_h": 65.14
       }
     },
     {
