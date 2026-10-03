@@ -1,21 +1,21 @@
 {
   "metadata": {
-    "generated_at": "2026-09-23T20:00:01.854993Z",
+    "generated_at": "2026-10-03T08:44:56.741140Z",
     "data_period": {
       "first_refuel": "2010-05-20",
-      "last_refuel": "2026-09-21",
-      "total_days": 5968
+      "last_refuel": "2026-10-01",
+      "total_days": 5978
     }
   },
   "global_statistics": {
     "all_vehicles": {
-      "total_km": 464199.0,
-      "total_litres": 34950.6,
-      "total_cost": 48805.07,
-      "total_refuels": 629,
+      "total_km": 464768.0,
+      "total_litres": 34997.5,
+      "total_cost": 48896.53,
+      "total_refuels": 630,
       "average_consumption_l_per_100km": 7.51,
       "monthly_averages": {
-        "average_speed_km_per_h": 56.65
+        "average_speed_km_per_h": 56.41
       }
     }
   },
@@ -1166,13 +1166,13 @@
       "has_temporal_data": true,
       "number_of_periods": 1,
       "total_statistics": {
-        "total_km": 13797.0,
-        "total_litres": 969.5,
-        "total_cost": 1544.95,
+        "total_km": 14366.0,
+        "total_litres": 1016.4,
+        "total_cost": 1636.41,
         "first_refuel_date": "2025-02-07",
-        "last_refuel_date": "2026-08-31",
-        "average_consumption_l_per_100km": 6.7,
-        "total_refuels": 23,
+        "last_refuel_date": "2026-10-01",
+        "average_consumption_l_per_100km": 6.76,
+        "total_refuels": 24,
         "yearly_history": [
           {
             "year": 2025,
@@ -1184,11 +1184,11 @@
           },
           {
             "year": 2026,
-            "total_km": 6963.0,
-            "total_litres": 471.0,
-            "total_cost": 750.25,
-            "average_consumption_l_per_100km": 6.76,
-            "number_of_refuels": 12
+            "total_km": 7532.0,
+            "total_litres": 517.9,
+            "total_cost": 841.71,
+            "average_consumption_l_per_100km": 6.88,
+            "number_of_refuels": 13
           }
         ],
         "monthly_history": [
@@ -1267,10 +1267,10 @@
           {
             "month_id": 10,
             "month_name": "Octubre",
-            "average_km": 1401.0,
-            "average_consumption": 6.41,
+            "average_km": 985.0,
+            "average_consumption": 6.94,
             "average_refuels": 2,
-            "average_speed": 28.48
+            "average_speed": 26.0
           },
           {
             "month_id": 12,
@@ -1284,8 +1284,8 @@
         "consumption_by_speed_range": [
           {
             "range_label": "15-35 km/h",
-            "average_consumption": 7.46,
-            "number_of_refuels": 10
+            "average_consumption": 7.53,
+            "number_of_refuels": 11
           },
           {
             "range_label": "36-55 km/h",
@@ -1310,30 +1310,30 @@
         ],
         "recent_refuels_comparison": {
           "last_refuel": {
-            "date": "2026-08-31",
-            "consumption": 7.09,
-            "speed": 43.99,
-            "distance_km": 629.0
+            "date": "2026-10-01",
+            "consumption": 8.25,
+            "speed": 21.4,
+            "distance_km": 569.0
           },
           "last_3_refuels_average": {
             "refuels_count": 3,
-            "consumption": 7.94,
-            "speed": 24.56,
-            "distance_km": 456.3
+            "consumption": 7.41,
+            "speed": 35.31,
+            "distance_km": 483.0
           },
           "historical_month_average": {
-            "month_id": 8,
-            "month_name": "Agosto",
-            "refuels_count": 1,
-            "consumption": 7.09,
-            "speed": 43.99,
-            "distance_km": 629.0
+            "month_id": 10,
+            "month_name": "Octubre",
+            "refuels_count": 3,
+            "consumption": 6.94,
+            "speed": 26.0,
+            "distance_km": 656.7
           }
         },
         "monthly_averages": {
-          "average_km_per_month": 736.8
+          "average_km_per_month": 727.6
         },
-        "lifetime_average_speed_km_per_h": 35.84
+        "lifetime_average_speed_km_per_h": 34.91
       }
     }
   ]
