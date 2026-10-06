@@ -5,17 +5,18 @@ import { YearlyChart } from '../detail/YearlyChart';
 export const GlobalYearlyCharts = () => {
   const { vehicles } = useFuelStore();
 
-  const { kmData, consumptionData } = useMemo(() => {
-    const yearMap = new Map<number, { total_km: number; total_litres: number }>();
+  const { kmData, consumptionData, litresData, avgDistanceData } = useMemo(() => {
+    const yearMap = new Map<number, { total_km: number; total_litres: number; total_refuels: number }>();
 
     vehicles.forEach((v) => {
       const yearlyHistory = v.total_statistics?.yearly_history || [];
       yearlyHistory.forEach((y: any) => {
         const year = y.year;
-        const current = yearMap.get(year) || { total_km: 0, total_litres: 0 };
+        const current = yearMap.get(year) || { total_km: 0, total_litres: 0, total_refuels: 0 };
         yearMap.set(year, {
           total_km: current.total_km + (y.total_km || 0),
           total_litres: current.total_litres + (y.total_litres || 0),
+          total_refuels: current.total_refuels + (y.number_of_refuels || 0),
         });
       });
     });
@@ -34,7 +35,20 @@ export const GlobalYearlyCharts = () => {
         : 0,
     }));
 
-    return { kmData: kmSeries, consumptionData: consumptionSeries };
+    const litresSeries = sortedYears.map(([year, data]) => ({
+      year,
+      total_litres: data.total_litres,
+    }));
+
+    // Average distance between refuels per year (same formula as the "KM entre Repostajes" KPI)
+    const avgDistanceSeries = sortedYears.map(([year, data]) => ({
+      year,
+      avg_km_between_refuels: data.total_refuels > 0
+        ? data.total_km / data.total_refuels
+        : 0,
+    }));
+
+    return { kmData: kmSeries, consumptionData: consumptionSeries, litresData: litresSeries, avgDistanceData: avgDistanceSeries };
   }, [vehicles]);
 
   if (kmData.length === 0) return null;
@@ -67,6 +81,34 @@ export const GlobalYearlyCharts = () => {
             tooltipUnit="L/100km"
             decimals={2}
             yDomain={[5, 10]}
+          />
+        </div>
+
+        <div className="bg-dark-card p-6 rounded-3xl border border-slate-800 shadow-xl">
+          <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6 px-2">
+            Litros por Año
+          </h3>
+          <YearlyChart
+            data={litresData}
+            dataKey="total_litres"
+            tooltipLabel="Litros Totales"
+            tooltipUnit="L"
+            color="#06b6d4"
+            decimals={0}
+          />
+        </div>
+
+        <div className="bg-dark-card p-6 rounded-3xl border border-slate-800 shadow-xl">
+          <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6 px-2">
+            Distancia Media entre Repostajes por Año
+          </h3>
+          <YearlyChart
+            data={avgDistanceData}
+            dataKey="avg_km_between_refuels"
+            tooltipLabel="Distancia Media"
+            tooltipUnit="km"
+            color="#06b6d4"
+            decimals={1}
           />
         </div>
       </div>
