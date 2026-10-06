@@ -1,3 +1,4 @@
+import { useMemo } from 'react';
 import { useFuelStore } from '../../store/fuelStore';
 import { BRAND_LOGOS, formatNumber } from '../../lib/utils';
 import { 
@@ -19,6 +20,15 @@ export const VehicleDetail = () => {
   const years = stats.yearsOfData || 1;
   const avgKmPerYear = stats.total_km / years;
   const avgKmBetween = stats.total_km / (stats.total_refuels || 1);
+
+  // Average distance between refuels per year (same formula as the "KM entre Repostajes" KPI)
+  const avgDistanceYearlyData = useMemo(() =>
+    (stats.yearly_history || []).map((y: any) => ({
+      year: y.year,
+      avg_km_between_refuels: y.number_of_refuels > 0
+        ? y.total_km / y.number_of_refuels
+        : 0,
+    })), [stats.yearly_history]);
 
   const firstRow = [
     { label: 'Total KM', value: `${formatNumber(stats.total_km, 0)} km`, icon: MapPin, color: 'text-blue-400' },
@@ -92,6 +102,29 @@ export const VehicleDetail = () => {
           <div className="bg-dark-card p-6 rounded-3xl border border-slate-800 shadow-xl">
               <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6 px-2">Promedio de Distancia Mensual</h3>
               <MonthlyChart data={stats.monthly_history} />
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="bg-dark-card p-6 rounded-3xl border border-slate-800 shadow-xl">
+              <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6 px-2">Consumo Medio por Año</h3>
+              <YearlyChart
+                data={stats.yearly_history}
+                dataKey="average_consumption_l_per_100km"
+                tooltipLabel="Consumo Medio"
+                tooltipUnit="L/100km"
+                decimals={2}
+              />
+          </div>
+          <div className="bg-dark-card p-6 rounded-3xl border border-slate-800 shadow-xl">
+              <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6 px-2">Distancia Media entre Repostajes por Año</h3>
+              <YearlyChart
+                data={avgDistanceYearlyData}
+                dataKey="avg_km_between_refuels"
+                tooltipLabel="Distancia Media"
+                tooltipUnit="km"
+                decimals={1}
+              />
           </div>
         </div>
 
