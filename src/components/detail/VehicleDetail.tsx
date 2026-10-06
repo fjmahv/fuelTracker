@@ -114,6 +114,7 @@ export const VehicleDetail = () => {
                 tooltipLabel="Consumo Medio"
                 tooltipUnit="L/100km"
                 decimals={2}
+                autoDomain
               />
           </div>
           <div className="bg-dark-card p-6 rounded-3xl border border-slate-800 shadow-xl">
@@ -124,6 +125,7 @@ export const VehicleDetail = () => {
                 tooltipLabel="Distancia Media"
                 tooltipUnit="km"
                 decimals={1}
+                autoDomain
               />
           </div>
         </div>

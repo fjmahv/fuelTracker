@@ -80,7 +80,7 @@ export const GlobalYearlyCharts = () => {
             tooltipLabel="Consumo Medio"
             tooltipUnit="L/100km"
             decimals={2}
-            yDomain={[5, 10]}
+            autoDomain
           />
         </div>
 
@@ -109,6 +109,7 @@ export const GlobalYearlyCharts = () => {
             tooltipUnit="km"
             color="#06b6d4"
             decimals={1}
+            autoDomain
           />
         </div>
       </div>
