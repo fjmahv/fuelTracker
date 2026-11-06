@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-10-30T12:54:17.986565Z",
+    "generated_at": "2026-11-06T19:42:47.036186Z",
     "data_period": {
       "first_refuel": "2010-05-20",
       "last_refuel": "2026-10-25",
@@ -47,7 +47,8 @@
             "total_litres": 1123.5,
             "total_cost": 1268.81,
             "average_consumption_l_per_100km": 7.89,
-            "number_of_refuels": 26
+            "number_of_refuels": 26,
+            "average_speed": 0
           },
           {
             "year": 2011,
@@ -55,7 +56,8 @@
             "total_litres": 1498.6,
             "total_cost": 1918.93,
             "average_consumption_l_per_100km": 7.83,
-            "number_of_refuels": 33
+            "number_of_refuels": 33,
+            "average_speed": 0
           },
           {
             "year": 2012,
@@ -63,7 +65,8 @@
             "total_litres": 1481.3,
             "total_cost": 2048.56,
             "average_consumption_l_per_100km": 7.73,
-            "number_of_refuels": 29
+            "number_of_refuels": 29,
+            "average_speed": 0
           },
           {
             "year": 2013,
@@ -71,7 +74,8 @@
             "total_litres": 1477.3,
             "total_cost": 2062.51,
             "average_consumption_l_per_100km": 7.73,
-            "number_of_refuels": 24
+            "number_of_refuels": 24,
+            "average_speed": 0
           },
           {
             "year": 2014,
@@ -79,7 +83,8 @@
             "total_litres": 1453.1,
             "total_cost": 1992.27,
             "average_consumption_l_per_100km": 7.77,
-            "number_of_refuels": 24
+            "number_of_refuels": 24,
+            "average_speed": 0
           },
           {
             "year": 2015,
@@ -87,7 +92,8 @@
             "total_litres": 481.2,
             "total_cost": 559.25,
             "average_consumption_l_per_100km": 7.97,
-            "number_of_refuels": 8
+            "number_of_refuels": 8,
+            "average_speed": 0
           },
           {
             "year": 2016,
@@ -95,7 +101,8 @@
             "total_litres": 698.6,
             "total_cost": 744.91,
             "average_consumption_l_per_100km": 8.4,
-            "number_of_refuels": 12
+            "number_of_refuels": 12,
+            "average_speed": 0
           },
           {
             "year": 2017,
@@ -103,7 +110,8 @@
             "total_litres": 642.2,
             "total_cost": 723.53,
             "average_consumption_l_per_100km": 8.71,
-            "number_of_refuels": 11
+            "number_of_refuels": 11,
+            "average_speed": 0
           },
           {
             "year": 2018,
@@ -111,7 +119,8 @@
             "total_litres": 607.0,
             "total_cost": 749.13,
             "average_consumption_l_per_100km": 7.75,
-            "number_of_refuels": 11
+            "number_of_refuels": 11,
+            "average_speed": 0
           },
           {
             "year": 2019,
@@ -119,7 +128,8 @@
             "total_litres": 571.9,
             "total_cost": 734.23,
             "average_consumption_l_per_100km": 8.88,
-            "number_of_refuels": 9
+            "number_of_refuels": 9,
+            "average_speed": 0
           },
           {
             "year": 2020,
@@ -127,7 +137,8 @@
             "total_litres": 644.3,
             "total_cost": 775.12,
             "average_consumption_l_per_100km": 8.01,
-            "number_of_refuels": 10
+            "number_of_refuels": 10,
+            "average_speed": 0
           },
           {
             "year": 2021,
@@ -135,7 +146,8 @@
             "total_litres": 708.9,
             "total_cost": 1007.9,
             "average_consumption_l_per_100km": 8.4,
-            "number_of_refuels": 12
+            "number_of_refuels": 12,
+            "average_speed": 0
           },
           {
             "year": 2022,
@@ -143,7 +155,8 @@
             "total_litres": 850.4,
             "total_cost": 1586.5,
             "average_consumption_l_per_100km": 8.55,
-            "number_of_refuels": 14
+            "number_of_refuels": 14,
+            "average_speed": 0
           },
           {
             "year": 2023,
@@ -151,7 +164,8 @@
             "total_litres": 1454.6,
             "total_cost": 2393.98,
             "average_consumption_l_per_100km": 8.26,
-            "number_of_refuels": 24
+            "number_of_refuels": 24,
+            "average_speed": 0
           },
           {
             "year": 2024,
@@ -159,7 +173,8 @@
             "total_litres": 976.6,
             "total_cost": 1538.78,
             "average_consumption_l_per_100km": 8.18,
-            "number_of_refuels": 16
+            "number_of_refuels": 16,
+            "average_speed": 0
           },
           {
             "year": 2025,
@@ -167,7 +182,8 @@
             "total_litres": 131.5,
             "total_cost": 215.03,
             "average_consumption_l_per_100km": 8.42,
-            "number_of_refuels": 2
+            "number_of_refuels": 2,
+            "average_speed": 0
           }
         ],
         "monthly_history": [
@@ -323,7 +339,8 @@
             "total_litres": 258.5,
             "total_cost": 290.48,
             "average_consumption_l_per_100km": 6.31,
-            "number_of_refuels": 8
+            "number_of_refuels": 8,
+            "average_speed": 0
           },
           {
             "year": 2011,
@@ -331,7 +348,8 @@
             "total_litres": 544.4,
             "total_cost": 705.29,
             "average_consumption_l_per_100km": 6.26,
-            "number_of_refuels": 15
+            "number_of_refuels": 15,
+            "average_speed": 0
           },
           {
             "year": 2012,
@@ -339,7 +357,8 @@
             "total_litres": 753.7,
             "total_cost": 1038.71,
             "average_consumption_l_per_100km": 6.08,
-            "number_of_refuels": 19
+            "number_of_refuels": 19,
+            "average_speed": 0
           },
           {
             "year": 2013,
@@ -347,7 +366,8 @@
             "total_litres": 737.1,
             "total_cost": 1032.03,
             "average_consumption_l_per_100km": 6.42,
-            "number_of_refuels": 17
+            "number_of_refuels": 17,
+            "average_speed": 0
           },
           {
             "year": 2014,
@@ -355,7 +375,8 @@
             "total_litres": 739.0,
             "total_cost": 991.65,
             "average_consumption_l_per_100km": 6.36,
-            "number_of_refuels": 16
+            "number_of_refuels": 16,
+            "average_speed": 0
           },
           {
             "year": 2016,
@@ -363,7 +384,8 @@
             "total_litres": 266.6,
             "total_cost": 288.71,
             "average_consumption_l_per_100km": 5.94,
-            "number_of_refuels": 6
+            "number_of_refuels": 6,
+            "average_speed": 0
           },
           {
             "year": 2017,
@@ -371,7 +393,8 @@
             "total_litres": 388.6,
             "total_cost": 442.86,
             "average_consumption_l_per_100km": 6.48,
-            "number_of_refuels": 9
+            "number_of_refuels": 9,
+            "average_speed": 0
           },
           {
             "year": 2018,
@@ -379,7 +402,8 @@
             "total_litres": 127.6,
             "total_cost": 150.22,
             "average_consumption_l_per_100km": 6.18,
-            "number_of_refuels": 3
+            "number_of_refuels": 3,
+            "average_speed": 0
           }
         ],
         "monthly_history": [
@@ -535,7 +559,8 @@
             "total_litres": 183.7,
             "total_cost": 221.28,
             "average_consumption_l_per_100km": 7.27,
-            "number_of_refuels": 4
+            "number_of_refuels": 4,
+            "average_speed": 43.41
           },
           {
             "year": 2015,
@@ -543,7 +568,8 @@
             "total_litres": 1316.1,
             "total_cost": 1539.94,
             "average_consumption_l_per_100km": 7.13,
-            "number_of_refuels": 22
+            "number_of_refuels": 22,
+            "average_speed": 53.13
           },
           {
             "year": 2016,
@@ -551,7 +577,8 @@
             "total_litres": 1168.0,
             "total_cost": 1250.18,
             "average_consumption_l_per_100km": 7.28,
-            "number_of_refuels": 20
+            "number_of_refuels": 20,
+            "average_speed": 51.94
           },
           {
             "year": 2017,
@@ -559,7 +586,8 @@
             "total_litres": 903.1,
             "total_cost": 1022.68,
             "average_consumption_l_per_100km": 7.41,
-            "number_of_refuels": 15
+            "number_of_refuels": 15,
+            "average_speed": 58.26
           },
           {
             "year": 2018,
@@ -567,7 +595,8 @@
             "total_litres": 1392.5,
             "total_cost": 1759.94,
             "average_consumption_l_per_100km": 7.28,
-            "number_of_refuels": 23
+            "number_of_refuels": 23,
+            "average_speed": 61.36
           }
         ],
         "monthly_history": [
@@ -750,7 +779,8 @@
             "total_litres": 190.0,
             "total_cost": 228.21,
             "average_consumption_l_per_100km": 8.28,
-            "number_of_refuels": 4
+            "number_of_refuels": 4,
+            "average_speed": 44.96
           },
           {
             "year": 2019,
@@ -758,7 +788,8 @@
             "total_litres": 1542.1,
             "total_cost": 1994.82,
             "average_consumption_l_per_100km": 7.83,
-            "number_of_refuels": 26
+            "number_of_refuels": 26,
+            "average_speed": 58.21
           },
           {
             "year": 2020,
@@ -766,7 +797,8 @@
             "total_litres": 567.4,
             "total_cost": 683.11,
             "average_consumption_l_per_100km": 7.97,
-            "number_of_refuels": 9
+            "number_of_refuels": 9,
+            "average_speed": 52.32
           },
           {
             "year": 2021,
@@ -774,7 +806,8 @@
             "total_litres": 1077.7,
             "total_cost": 1530.52,
             "average_consumption_l_per_100km": 7.72,
-            "number_of_refuels": 17
+            "number_of_refuels": 17,
+            "average_speed": 59.68
           },
           {
             "year": 2022,
@@ -782,7 +815,8 @@
             "total_litres": 942.6,
             "total_cost": 1732.62,
             "average_consumption_l_per_100km": 7.6,
-            "number_of_refuels": 15
+            "number_of_refuels": 15,
+            "average_speed": 51.76
           }
         ],
         "monthly_history": [
@@ -965,7 +999,8 @@
             "total_litres": 353.1,
             "total_cost": 645.75,
             "average_consumption_l_per_100km": 7.52,
-            "number_of_refuels": 6
+            "number_of_refuels": 6,
+            "average_speed": 73.41
           },
           {
             "year": 2023,
@@ -973,7 +1008,8 @@
             "total_litres": 1206.0,
             "total_cost": 1947.92,
             "average_consumption_l_per_100km": 7.3,
-            "number_of_refuels": 18
+            "number_of_refuels": 18,
+            "average_speed": 61.71
           },
           {
             "year": 2024,
@@ -981,7 +1017,8 @@
             "total_litres": 1020.1,
             "total_cost": 1597.67,
             "average_consumption_l_per_100km": 7.27,
-            "number_of_refuels": 15
+            "number_of_refuels": 15,
+            "average_speed": 54.22
           },
           {
             "year": 2025,
@@ -989,7 +1026,8 @@
             "total_litres": 1213.6,
             "total_cost": 1849.07,
             "average_consumption_l_per_100km": 7.17,
-            "number_of_refuels": 17
+            "number_of_refuels": 17,
+            "average_speed": 58.39
           },
           {
             "year": 2026,
@@ -997,7 +1035,8 @@
             "total_litres": 2513.8,
             "total_cost": 4448.6,
             "average_consumption_l_per_100km": 7.52,
-            "number_of_refuels": 41
+            "number_of_refuels": 41,
+            "average_speed": 78.22
           }
         ],
         "monthly_history": [
@@ -1180,7 +1219,8 @@
             "total_litres": 498.5,
             "total_cost": 794.7,
             "average_consumption_l_per_100km": 6.63,
-            "number_of_refuels": 11
+            "number_of_refuels": 11,
+            "average_speed": 33.24
           },
           {
             "year": 2026,
@@ -1188,7 +1228,8 @@
             "total_litres": 591.5,
             "total_cost": 977.69,
             "average_consumption_l_per_100km": 6.71,
-            "number_of_refuels": 15
+            "number_of_refuels": 15,
+            "average_speed": 38.97
           }
         ],
         "monthly_history": [
