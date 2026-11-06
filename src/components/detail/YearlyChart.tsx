@@ -20,6 +20,10 @@ interface YearlyChartProps {
   decimals?: number;
   yDomain?: [number, number];
   autoDomain?: boolean;
+  extraDataKey?: string;
+  extraTooltipLabel?: string;
+  extraTooltipUnit?: string;
+  extraDecimals?: number;
 }
 
 export const YearlyChart = ({
@@ -31,6 +35,10 @@ export const YearlyChart = ({
   decimals = 0,
   yDomain,
   autoDomain = false,
+  extraDataKey,
+  extraTooltipLabel = '',
+  extraTooltipUnit = '',
+  extraDecimals = 1,
 }: YearlyChartProps) => {
   const fillColor = color;
   const strokeColor = color;
@@ -62,6 +70,30 @@ export const YearlyChart = ({
     return [domainMin, domainMax];
   }, [autoDomain, data, dataKey, yDomain]);
 
+  // Custom tooltip used only when an extra metric is configured: it renders the
+  // main value plus the extra metric (e.g. average speed) below it, but only
+  // when the extra value actually exists for that data point (vehicles
+  // without telemetry simply omit the extra line).
+  const renderCustomTooltip = ({ active, payload, label }: any) => {
+    if (!active || !payload || payload.length === 0) return null;
+    const datum = payload[0]?.payload ?? {};
+    const value = Number(datum[dataKey]);
+    const extraValue = extraDataKey ? Number(datum[extraDataKey]) : NaN;
+    return (
+      <div style={{ backgroundColor: '#0f172a', border: '1px solid #1e293b', borderRadius: '12px', padding: '10px 14px' }}>
+        <div style={{ fontSize: '11px', color: '#94a3b8', marginBottom: '4px' }}>{label}</div>
+        <div style={{ fontSize: '13px', color: '#e2e8f0' }}>
+          {`${tooltipLabel}: ${formatNumber(value, decimals)} ${tooltipUnit}`}
+        </div>
+        {extraDataKey && !Number.isNaN(extraValue) && extraValue > 0 && (
+          <div style={{ fontSize: '13px', color: '#e2e8f0' }}>
+            {`${extraTooltipLabel}: ${formatNumber(extraValue, extraDecimals)} ${extraTooltipUnit}`}
+          </div>
+        )}
+      </div>
+    );
+  };
+
   return (
     <div className="h-[300px] w-full font-mono">
       <ResponsiveContainer width="100%" height="100%">
@@ -85,6 +117,7 @@ export const YearlyChart = ({
             contentStyle={{ backgroundColor: '#0f172a', border: '1px solid #1e293b', borderRadius: '12px' }}
             itemStyle={{ fontSize: '13px' }}
             cursor={{ fill: 'rgba(255, 255, 255, 0.05)' }}
+            content={extraDataKey ? renderCustomTooltip : undefined}
             formatter={(value: number) => [`${formatNumber(value, decimals)} ${tooltipUnit}`, tooltipLabel]}
           />
 

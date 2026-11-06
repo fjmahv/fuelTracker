@@ -115,6 +115,10 @@ export const VehicleDetail = () => {
                 tooltipUnit="L/100km"
                 decimals={2}
                 autoDomain
+                extraDataKey="average_speed"
+                extraTooltipLabel="Velocidad Media"
+                extraTooltipUnit="km/h"
+                extraDecimals={1}
               />
           </div>
           <div className="bg-dark-card p-6 rounded-3xl border border-slate-800 shadow-xl">
