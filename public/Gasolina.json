@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-11-23T19:00:01.959272Z",
+    "generated_at": "2026-11-27T19:00:02.035988Z",
     "data_period": {
       "first_refuel": "2010-05-20",
       "last_refuel": "2026-11-23",
@@ -9,13 +9,13 @@
   },
   "global_statistics": {
     "all_vehicles": {
-      "total_km": 472285.0,
+      "total_km": 6492.0,
       "total_litres": 35544.1,
       "total_cost": 49953.13,
       "total_refuels": 641,
-      "average_consumption_l_per_100km": 7.51,
+      "average_consumption_l_per_100km": 546.2,
       "monthly_averages": {
-        "average_speed_km_per_h": 56.64
+        "average_speed_km_per_h": 1.25
       }
     }
   },
@@ -33,12 +33,12 @@
       "has_temporal_data": false,
       "number_of_periods": 1,
       "total_statistics": {
-        "total_km": 183870.0,
+        "total_km": 719.0,
         "total_litres": 14801.0,
         "total_cost": 20319.44,
         "first_refuel_date": "2010-05-20",
         "last_refuel_date": "2025-01-31",
-        "average_consumption_l_per_100km": 8.05,
+        "average_consumption_l_per_100km": 2058.55,
         "total_refuels": 265,
         "yearly_history": [
           {
@@ -48,7 +48,8 @@
             "total_cost": 1268.81,
             "average_consumption_l_per_100km": 7.89,
             "number_of_refuels": 26,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 8.92
           },
           {
             "year": 2011,
@@ -57,7 +58,8 @@
             "total_cost": 1918.93,
             "average_consumption_l_per_100km": 7.83,
             "number_of_refuels": 33,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 10.03
           },
           {
             "year": 2012,
@@ -66,7 +68,8 @@
             "total_cost": 2048.56,
             "average_consumption_l_per_100km": 7.73,
             "number_of_refuels": 29,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 10.69
           },
           {
             "year": 2013,
@@ -75,7 +78,8 @@
             "total_cost": 2062.51,
             "average_consumption_l_per_100km": 7.73,
             "number_of_refuels": 24,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 10.8
           },
           {
             "year": 2014,
@@ -84,7 +88,8 @@
             "total_cost": 1992.27,
             "average_consumption_l_per_100km": 7.77,
             "number_of_refuels": 24,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 10.65
           },
           {
             "year": 2015,
@@ -93,7 +98,8 @@
             "total_cost": 559.25,
             "average_consumption_l_per_100km": 7.97,
             "number_of_refuels": 8,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 9.26
           },
           {
             "year": 2016,
@@ -102,7 +108,8 @@
             "total_cost": 744.91,
             "average_consumption_l_per_100km": 8.4,
             "number_of_refuels": 12,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 8.95
           },
           {
             "year": 2017,
@@ -111,7 +118,8 @@
             "total_cost": 723.53,
             "average_consumption_l_per_100km": 8.71,
             "number_of_refuels": 11,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 9.82
           },
           {
             "year": 2018,
@@ -120,7 +128,8 @@
             "total_cost": 749.13,
             "average_consumption_l_per_100km": 7.75,
             "number_of_refuels": 11,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 9.57
           },
           {
             "year": 2019,
@@ -129,7 +138,8 @@
             "total_cost": 734.23,
             "average_consumption_l_per_100km": 8.88,
             "number_of_refuels": 9,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 11.4
           },
           {
             "year": 2020,
@@ -138,7 +148,8 @@
             "total_cost": 775.12,
             "average_consumption_l_per_100km": 8.01,
             "number_of_refuels": 10,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 9.63
           },
           {
             "year": 2021,
@@ -147,7 +158,8 @@
             "total_cost": 1007.9,
             "average_consumption_l_per_100km": 8.4,
             "number_of_refuels": 12,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 11.94
           },
           {
             "year": 2022,
@@ -156,7 +168,8 @@
             "total_cost": 1586.5,
             "average_consumption_l_per_100km": 8.55,
             "number_of_refuels": 14,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 15.95
           },
           {
             "year": 2023,
@@ -165,7 +178,8 @@
             "total_cost": 2393.98,
             "average_consumption_l_per_100km": 8.26,
             "number_of_refuels": 24,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 13.6
           },
           {
             "year": 2024,
@@ -174,7 +188,8 @@
             "total_cost": 1538.78,
             "average_consumption_l_per_100km": 8.18,
             "number_of_refuels": 16,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 12.89
           },
           {
             "year": 2025,
@@ -183,7 +198,8 @@
             "total_cost": 215.03,
             "average_consumption_l_per_100km": 8.42,
             "number_of_refuels": 2,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 13.77
           }
         ],
         "monthly_history": [
@@ -308,8 +324,256 @@
           }
         },
         "monthly_averages": {
-          "average_km_per_month": 1042.3
-        }
+          "average_km_per_month": 4.1
+        },
+        "ultimos_12_meses": [
+          {
+            "mes": 1,
+            "anio": 2025,
+            "mes_nombre": "Enero",
+            "consumo_medio_l_per_100km": 8.42,
+            "velocidad_media_km_per_h": 0,
+            "km": 1562.0,
+            "litros": 131.5,
+            "horas": 0.0,
+            "numero_repostajes": 2
+          },
+          {
+            "mes": 12,
+            "anio": 2024,
+            "mes_nombre": "Diciembre",
+            "consumo_medio_l_per_100km": 8.21,
+            "velocidad_media_km_per_h": 0,
+            "km": 816.0,
+            "litros": 67.0,
+            "horas": 0.0,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 11,
+            "anio": 2024,
+            "mes_nombre": "Noviembre",
+            "consumo_medio_l_per_100km": 8.68,
+            "velocidad_media_km_per_h": 0,
+            "km": 812.0,
+            "litros": 70.5,
+            "horas": 0.0,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 10,
+            "anio": 2024,
+            "mes_nombre": "Octubre",
+            "consumo_medio_l_per_100km": 11.11,
+            "velocidad_media_km_per_h": 0,
+            "km": 546.0,
+            "litros": 60.7,
+            "horas": 0.0,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 9,
+            "anio": 2024,
+            "mes_nombre": "Septiembre",
+            "consumo_medio_l_per_100km": 6.35,
+            "velocidad_media_km_per_h": 0,
+            "km": 872.0,
+            "litros": 55.4,
+            "horas": 0.0,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 8,
+            "anio": 2024,
+            "mes_nombre": "Agosto",
+            "consumo_medio_l_per_100km": 7.66,
+            "velocidad_media_km_per_h": 0,
+            "km": 2216.0,
+            "litros": 169.7,
+            "horas": 0.0,
+            "numero_repostajes": 3
+          },
+          {
+            "mes": 7,
+            "anio": 2024,
+            "mes_nombre": "Julio",
+            "consumo_medio_l_per_100km": 7.81,
+            "velocidad_media_km_per_h": 0,
+            "km": 688.0,
+            "litros": 53.8,
+            "horas": 0.0,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 6,
+            "anio": 2024,
+            "mes_nombre": "Junio",
+            "consumo_medio_l_per_100km": 8.34,
+            "velocidad_media_km_per_h": 0,
+            "km": 1544.0,
+            "litros": 128.8,
+            "horas": 0.0,
+            "numero_repostajes": 2
+          },
+          {
+            "mes": 5,
+            "anio": 2024,
+            "mes_nombre": "Mayo",
+            "consumo_medio_l_per_100km": 7.97,
+            "velocidad_media_km_per_h": 0,
+            "km": 2200.0,
+            "litros": 175.4,
+            "horas": 0.0,
+            "numero_repostajes": 3
+          },
+          {
+            "mes": 4,
+            "anio": 2024,
+            "mes_nombre": "Abril",
+            "consumo_medio_l_per_100km": 8.02,
+            "velocidad_media_km_per_h": 0,
+            "km": 802.0,
+            "litros": 64.3,
+            "horas": 0.0,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 3,
+            "anio": 2024,
+            "mes_nombre": "Marzo",
+            "consumo_medio_l_per_100km": 9.12,
+            "velocidad_media_km_per_h": 0,
+            "km": 719.0,
+            "litros": 65.5,
+            "horas": 0.0,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 2,
+            "anio": 2024,
+            "mes_nombre": "Febrero",
+            "consumo_medio_l_per_100km": 9.12,
+            "velocidad_media_km_per_h": 0,
+            "km": 719.0,
+            "litros": 65.5,
+            "horas": 0.0,
+            "numero_repostajes": 1
+          }
+        ],
+        "coste_por_100km_por_ano": [
+          {
+            "anio": 2010,
+            "coste_por_100km_eur": 8.92,
+            "km_totales": 14232.0,
+            "coste_total": 1268.81,
+            "numero_repostajes": 26
+          },
+          {
+            "anio": 2011,
+            "coste_por_100km_eur": 10.03,
+            "km_totales": 19134.0,
+            "coste_total": 1918.93,
+            "numero_repostajes": 33
+          },
+          {
+            "anio": 2012,
+            "coste_por_100km_eur": 10.69,
+            "km_totales": 19161.0,
+            "coste_total": 2048.56,
+            "numero_repostajes": 29
+          },
+          {
+            "anio": 2013,
+            "coste_por_100km_eur": 10.8,
+            "km_totales": 19100.0,
+            "coste_total": 2062.51,
+            "numero_repostajes": 24
+          },
+          {
+            "anio": 2014,
+            "coste_por_100km_eur": 10.65,
+            "km_totales": 18711.0,
+            "coste_total": 1992.27,
+            "numero_repostajes": 24
+          },
+          {
+            "anio": 2015,
+            "coste_por_100km_eur": 9.26,
+            "km_totales": 6039.0,
+            "coste_total": 559.25,
+            "numero_repostajes": 8
+          },
+          {
+            "anio": 2016,
+            "coste_por_100km_eur": 8.95,
+            "km_totales": 8319.0,
+            "coste_total": 744.91,
+            "numero_repostajes": 12
+          },
+          {
+            "anio": 2017,
+            "coste_por_100km_eur": 9.82,
+            "km_totales": 7371.0,
+            "coste_total": 723.53,
+            "numero_repostajes": 11
+          },
+          {
+            "anio": 2018,
+            "coste_por_100km_eur": 9.57,
+            "km_totales": 7831.0,
+            "coste_total": 749.13,
+            "numero_repostajes": 11
+          },
+          {
+            "anio": 2019,
+            "coste_por_100km_eur": 11.4,
+            "km_totales": 6438.0,
+            "coste_total": 734.23,
+            "numero_repostajes": 9
+          },
+          {
+            "anio": 2020,
+            "coste_por_100km_eur": 9.63,
+            "km_totales": 8047.0,
+            "coste_total": 775.12,
+            "numero_repostajes": 10
+          },
+          {
+            "anio": 2021,
+            "coste_por_100km_eur": 11.94,
+            "km_totales": 8442.0,
+            "coste_total": 1007.9,
+            "numero_repostajes": 12
+          },
+          {
+            "anio": 2022,
+            "coste_por_100km_eur": 15.95,
+            "km_totales": 9946.0,
+            "coste_total": 1586.5,
+            "numero_repostajes": 14
+          },
+          {
+            "anio": 2023,
+            "coste_por_100km_eur": 13.6,
+            "km_totales": 17603.0,
+            "coste_total": 2393.98,
+            "numero_repostajes": 24
+          },
+          {
+            "anio": 2024,
+            "coste_por_100km_eur": 12.89,
+            "km_totales": 11934.0,
+            "coste_total": 1538.78,
+            "numero_repostajes": 16
+          },
+          {
+            "anio": 2025,
+            "coste_por_100km_eur": 13.77,
+            "km_totales": 1562.0,
+            "coste_total": 215.03,
+            "numero_repostajes": 2
+          }
+        ]
       }
     },
     {
@@ -325,12 +589,12 @@
       "has_temporal_data": false,
       "number_of_periods": 2,
       "total_statistics": {
-        "total_km": 60164.0,
+        "total_km": 748.0,
         "total_litres": 3815.5,
         "total_cost": 4939.95,
         "first_refuel_date": "2010-08-24",
         "last_refuel_date": "2018-03-13",
-        "average_consumption_l_per_100km": 6.28,
+        "average_consumption_l_per_100km": 504.75,
         "total_refuels": 93,
         "yearly_history": [
           {
@@ -340,7 +604,8 @@
             "total_cost": 290.48,
             "average_consumption_l_per_100km": 6.31,
             "number_of_refuels": 8,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 7.09
           },
           {
             "year": 2011,
@@ -349,7 +614,8 @@
             "total_cost": 705.29,
             "average_consumption_l_per_100km": 6.26,
             "number_of_refuels": 15,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 8.11
           },
           {
             "year": 2012,
@@ -358,7 +624,8 @@
             "total_cost": 1038.71,
             "average_consumption_l_per_100km": 6.08,
             "number_of_refuels": 19,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 8.38
           },
           {
             "year": 2013,
@@ -367,7 +634,8 @@
             "total_cost": 1032.03,
             "average_consumption_l_per_100km": 6.42,
             "number_of_refuels": 17,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 8.99
           },
           {
             "year": 2014,
@@ -376,7 +644,8 @@
             "total_cost": 991.65,
             "average_consumption_l_per_100km": 6.36,
             "number_of_refuels": 16,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 8.53
           },
           {
             "year": 2016,
@@ -385,7 +654,8 @@
             "total_cost": 288.71,
             "average_consumption_l_per_100km": 5.94,
             "number_of_refuels": 6,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 7.57
           },
           {
             "year": 2017,
@@ -394,7 +664,8 @@
             "total_cost": 442.86,
             "average_consumption_l_per_100km": 6.48,
             "number_of_refuels": 9,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 7.39
           },
           {
             "year": 2018,
@@ -403,7 +674,8 @@
             "total_cost": 150.22,
             "average_consumption_l_per_100km": 6.18,
             "number_of_refuels": 3,
-            "average_speed": 0
+            "average_speed": 0,
+            "coste_por_100km_eur": 7.27
           }
         ],
         "monthly_history": [
@@ -528,8 +800,156 @@
           }
         },
         "monthly_averages": {
-          "average_km_per_month": 664.0
-        }
+          "average_km_per_month": 8.3
+        },
+        "ultimos_12_meses": [
+          {
+            "mes": 3,
+            "anio": 2018,
+            "mes_nombre": "Marzo",
+            "consumo_medio_l_per_100km": 6.4,
+            "velocidad_media_km_per_h": 0,
+            "km": 621.0,
+            "litros": 39.7,
+            "horas": 0.0,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 2,
+            "anio": 2018,
+            "mes_nombre": "Febrero",
+            "consumo_medio_l_per_100km": 6.09,
+            "velocidad_media_km_per_h": 0,
+            "km": 1444.0,
+            "litros": 87.9,
+            "horas": 0.0,
+            "numero_repostajes": 2
+          },
+          {
+            "mes": 12,
+            "anio": 2017,
+            "mes_nombre": "Diciembre",
+            "consumo_medio_l_per_100km": 6.42,
+            "velocidad_media_km_per_h": 0,
+            "km": 666.0,
+            "litros": 42.8,
+            "horas": 0.0,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 11,
+            "anio": 2017,
+            "mes_nombre": "Noviembre",
+            "consumo_medio_l_per_100km": 6.47,
+            "velocidad_media_km_per_h": 0,
+            "km": 660.0,
+            "litros": 42.7,
+            "horas": 0.0,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 9,
+            "anio": 2017,
+            "mes_nombre": "Septiembre",
+            "consumo_medio_l_per_100km": 6.26,
+            "velocidad_media_km_per_h": 0,
+            "km": 686.0,
+            "litros": 42.9,
+            "horas": 0.0,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 8,
+            "anio": 2017,
+            "mes_nombre": "Agosto",
+            "consumo_medio_l_per_100km": 7.17,
+            "velocidad_media_km_per_h": 0,
+            "km": 526.0,
+            "litros": 37.7,
+            "horas": 0.0,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 6,
+            "anio": 2017,
+            "mes_nombre": "Junio",
+            "consumo_medio_l_per_100km": 6.64,
+            "velocidad_media_km_per_h": 0,
+            "km": 709.0,
+            "litros": 47.1,
+            "horas": 0.0,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 4,
+            "anio": 2017,
+            "mes_nombre": "Abril",
+            "consumo_medio_l_per_100km": 6.35,
+            "velocidad_media_km_per_h": 0,
+            "km": 748.0,
+            "litros": 47.5,
+            "horas": 0.0,
+            "numero_repostajes": 1
+          }
+        ],
+        "coste_por_100km_por_ano": [
+          {
+            "anio": 2010,
+            "coste_por_100km_eur": 7.09,
+            "km_totales": 4096.0,
+            "coste_total": 290.48,
+            "numero_repostajes": 8
+          },
+          {
+            "anio": 2011,
+            "coste_por_100km_eur": 8.11,
+            "km_totales": 8696.0,
+            "coste_total": 705.29,
+            "numero_repostajes": 15
+          },
+          {
+            "anio": 2012,
+            "coste_por_100km_eur": 8.38,
+            "km_totales": 12396.0,
+            "coste_total": 1038.71,
+            "numero_repostajes": 19
+          },
+          {
+            "anio": 2013,
+            "coste_por_100km_eur": 8.99,
+            "km_totales": 11482.0,
+            "coste_total": 1032.03,
+            "numero_repostajes": 17
+          },
+          {
+            "anio": 2014,
+            "coste_por_100km_eur": 8.53,
+            "km_totales": 11621.0,
+            "coste_total": 991.65,
+            "numero_repostajes": 16
+          },
+          {
+            "anio": 2016,
+            "coste_por_100km_eur": 7.57,
+            "km_totales": 3812.0,
+            "coste_total": 288.71,
+            "numero_repostajes": 6
+          },
+          {
+            "anio": 2017,
+            "coste_por_100km_eur": 7.39,
+            "km_totales": 5996.0,
+            "coste_total": 442.86,
+            "numero_repostajes": 9
+          },
+          {
+            "anio": 2018,
+            "coste_por_100km_eur": 7.27,
+            "km_totales": 2065.0,
+            "coste_total": 150.22,
+            "numero_repostajes": 3
+          }
+        ]
       }
     },
     {
@@ -545,12 +965,12 @@
       "has_temporal_data": true,
       "number_of_periods": 1,
       "total_statistics": {
-        "total_km": 68352.0,
+        "total_km": 1697.0,
         "total_litres": 4963.4,
         "total_cost": 5794.02,
         "first_refuel_date": "2014-10-30",
         "last_refuel_date": "2018-09-15",
-        "average_consumption_l_per_100km": 7.26,
+        "average_consumption_l_per_100km": 292.48,
         "total_refuels": 84,
         "yearly_history": [
           {
@@ -560,7 +980,8 @@
             "total_cost": 221.28,
             "average_consumption_l_per_100km": 7.27,
             "number_of_refuels": 4,
-            "average_speed": 43.41
+            "average_speed": 43.41,
+            "coste_por_100km_eur": 8.76
           },
           {
             "year": 2015,
@@ -569,7 +990,8 @@
             "total_cost": 1539.94,
             "average_consumption_l_per_100km": 7.13,
             "number_of_refuels": 22,
-            "average_speed": 53.13
+            "average_speed": 53.13,
+            "coste_por_100km_eur": 8.35
           },
           {
             "year": 2016,
@@ -578,7 +1000,8 @@
             "total_cost": 1250.18,
             "average_consumption_l_per_100km": 7.28,
             "number_of_refuels": 20,
-            "average_speed": 51.94
+            "average_speed": 51.94,
+            "coste_por_100km_eur": 7.79
           },
           {
             "year": 2017,
@@ -587,7 +1010,8 @@
             "total_cost": 1022.68,
             "average_consumption_l_per_100km": 7.41,
             "number_of_refuels": 15,
-            "average_speed": 58.26
+            "average_speed": 58.26,
+            "coste_por_100km_eur": 8.39
           },
           {
             "year": 2018,
@@ -596,7 +1020,8 @@
             "total_cost": 1759.94,
             "average_consumption_l_per_100km": 7.28,
             "number_of_refuels": 23,
-            "average_speed": 61.36
+            "average_speed": 61.36,
+            "coste_por_100km_eur": 9.2
           }
         ],
         "monthly_history": [
@@ -747,9 +1172,180 @@
           }
         },
         "monthly_averages": {
-          "average_km_per_month": 1469.4
+          "average_km_per_month": 36.5
         },
-        "lifetime_average_speed_km_per_h": 55.32
+        "ultimos_12_meses": [
+          {
+            "mes": 9,
+            "anio": 2018,
+            "mes_nombre": "Septiembre",
+            "consumo_medio_l_per_100km": 7.18,
+            "velocidad_media_km_per_h": 57.39,
+            "km": 881.0,
+            "litros": 63.3,
+            "horas": 15.35,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 8,
+            "anio": 2018,
+            "mes_nombre": "Agosto",
+            "consumo_medio_l_per_100km": 7.36,
+            "velocidad_media_km_per_h": 77.0,
+            "km": 3338.0,
+            "litros": 245.6,
+            "horas": 43.35,
+            "numero_repostajes": 4
+          },
+          {
+            "mes": 7,
+            "anio": 2018,
+            "mes_nombre": "Julio",
+            "consumo_medio_l_per_100km": 7.19,
+            "velocidad_media_km_per_h": 72.25,
+            "km": 3585.0,
+            "litros": 257.9,
+            "horas": 49.62,
+            "numero_repostajes": 4
+          },
+          {
+            "mes": 6,
+            "anio": 2018,
+            "mes_nombre": "Junio",
+            "consumo_medio_l_per_100km": 7.53,
+            "velocidad_media_km_per_h": 29.72,
+            "km": 798.0,
+            "litros": 60.0,
+            "horas": 26.85,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 5,
+            "anio": 2018,
+            "mes_nombre": "Mayo",
+            "consumo_medio_l_per_100km": 7.12,
+            "velocidad_media_km_per_h": 75.79,
+            "km": 2736.0,
+            "litros": 194.9,
+            "horas": 36.1,
+            "numero_repostajes": 3
+          },
+          {
+            "mes": 4,
+            "anio": 2018,
+            "mes_nombre": "Abril",
+            "consumo_medio_l_per_100km": 7.08,
+            "velocidad_media_km_per_h": 69.35,
+            "km": 3515.0,
+            "litros": 248.9,
+            "horas": 50.68,
+            "numero_repostajes": 4
+          },
+          {
+            "mes": 3,
+            "anio": 2018,
+            "mes_nombre": "Marzo",
+            "consumo_medio_l_per_100km": 7.5,
+            "velocidad_media_km_per_h": 51.57,
+            "km": 2673.0,
+            "litros": 200.4,
+            "horas": 51.83,
+            "numero_repostajes": 4
+          },
+          {
+            "mes": 2,
+            "anio": 2018,
+            "mes_nombre": "Febrero",
+            "consumo_medio_l_per_100km": 7.83,
+            "velocidad_media_km_per_h": 33.71,
+            "km": 741.0,
+            "litros": 58.0,
+            "horas": 21.98,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 1,
+            "anio": 2018,
+            "mes_nombre": "Enero",
+            "consumo_medio_l_per_100km": 7.31,
+            "velocidad_media_km_per_h": 53.91,
+            "km": 868.0,
+            "litros": 63.5,
+            "horas": 16.1,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 12,
+            "anio": 2017,
+            "mes_nombre": "Diciembre",
+            "consumo_medio_l_per_100km": 7.99,
+            "velocidad_media_km_per_h": 65.1,
+            "km": 868.0,
+            "litros": 69.4,
+            "horas": 13.33,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 11,
+            "anio": 2017,
+            "mes_nombre": "Noviembre",
+            "consumo_medio_l_per_100km": 7.38,
+            "velocidad_media_km_per_h": 57.6,
+            "km": 1605.0,
+            "litros": 118.4,
+            "horas": 27.87,
+            "numero_repostajes": 2
+          },
+          {
+            "mes": 10,
+            "anio": 2017,
+            "mes_nombre": "Octubre",
+            "consumo_medio_l_per_100km": 7.22,
+            "velocidad_media_km_per_h": 52.92,
+            "km": 1697.0,
+            "litros": 122.6,
+            "horas": 32.07,
+            "numero_repostajes": 2
+          }
+        ],
+        "coste_por_100km_por_ano": [
+          {
+            "anio": 2014,
+            "coste_por_100km_eur": 8.76,
+            "km_totales": 2525.0,
+            "coste_total": 221.28,
+            "numero_repostajes": 4
+          },
+          {
+            "anio": 2015,
+            "coste_por_100km_eur": 8.35,
+            "km_totales": 18451.0,
+            "coste_total": 1539.94,
+            "numero_repostajes": 22
+          },
+          {
+            "anio": 2016,
+            "coste_por_100km_eur": 7.79,
+            "km_totales": 16054.0,
+            "coste_total": 1250.18,
+            "numero_repostajes": 20
+          },
+          {
+            "anio": 2017,
+            "coste_por_100km_eur": 8.39,
+            "km_totales": 12187.0,
+            "coste_total": 1022.68,
+            "numero_repostajes": 15
+          },
+          {
+            "anio": 2018,
+            "coste_por_100km_eur": 9.2,
+            "km_totales": 19135.0,
+            "coste_total": 1759.94,
+            "numero_repostajes": 23
+          }
+        ],
+        "lifetime_average_speed_km_per_h": 1.37
       }
     },
     {
@@ -765,12 +1361,12 @@
       "has_temporal_data": true,
       "number_of_periods": 1,
       "total_statistics": {
-        "total_km": 55468.0,
+        "total_km": 1735.0,
         "total_litres": 4319.8,
         "total_cost": 6169.28,
         "first_refuel_date": "2018-10-29",
         "last_refuel_date": "2022-09-30",
-        "average_consumption_l_per_100km": 7.79,
+        "average_consumption_l_per_100km": 248.98,
         "total_refuels": 71,
         "yearly_history": [
           {
@@ -780,7 +1376,8 @@
             "total_cost": 228.21,
             "average_consumption_l_per_100km": 8.28,
             "number_of_refuels": 4,
-            "average_speed": 44.96
+            "average_speed": 44.96,
+            "coste_por_100km_eur": 9.94
           },
           {
             "year": 2019,
@@ -789,7 +1386,8 @@
             "total_cost": 1994.82,
             "average_consumption_l_per_100km": 7.83,
             "number_of_refuels": 26,
-            "average_speed": 58.21
+            "average_speed": 58.21,
+            "coste_por_100km_eur": 10.13
           },
           {
             "year": 2020,
@@ -798,7 +1396,8 @@
             "total_cost": 683.11,
             "average_consumption_l_per_100km": 7.97,
             "number_of_refuels": 9,
-            "average_speed": 52.32
+            "average_speed": 52.32,
+            "coste_por_100km_eur": 9.59
           },
           {
             "year": 2021,
@@ -807,7 +1406,8 @@
             "total_cost": 1530.52,
             "average_consumption_l_per_100km": 7.72,
             "number_of_refuels": 17,
-            "average_speed": 59.68
+            "average_speed": 59.68,
+            "coste_por_100km_eur": 10.97
           },
           {
             "year": 2022,
@@ -816,7 +1416,8 @@
             "total_cost": 1732.62,
             "average_consumption_l_per_100km": 7.6,
             "number_of_refuels": 15,
-            "average_speed": 51.76
+            "average_speed": 51.76,
+            "coste_por_100km_eur": 13.96
           }
         ],
         "monthly_history": [
@@ -967,9 +1568,147 @@
           }
         },
         "monthly_averages": {
-          "average_km_per_month": 1179.1
+          "average_km_per_month": 36.9
         },
-        "lifetime_average_speed_km_per_h": 55.52
+        "ultimos_12_meses": [
+          {
+            "mes": 9,
+            "anio": 2022,
+            "mes_nombre": "Septiembre",
+            "consumo_medio_l_per_100km": 7.46,
+            "velocidad_media_km_per_h": 61.46,
+            "km": 2657.0,
+            "litros": 198.3,
+            "horas": 43.23,
+            "numero_repostajes": 3
+          },
+          {
+            "mes": 8,
+            "anio": 2022,
+            "mes_nombre": "Agosto",
+            "consumo_medio_l_per_100km": 7.41,
+            "velocidad_media_km_per_h": 73.25,
+            "km": 1763.0,
+            "litros": 130.7,
+            "horas": 24.07,
+            "numero_repostajes": 2
+          },
+          {
+            "mes": 7,
+            "anio": 2022,
+            "mes_nombre": "Julio",
+            "consumo_medio_l_per_100km": 7.55,
+            "velocidad_media_km_per_h": 45.4,
+            "km": 2568.0,
+            "litros": 193.9,
+            "horas": 56.57,
+            "numero_repostajes": 3
+          },
+          {
+            "mes": 6,
+            "anio": 2022,
+            "mes_nombre": "Junio",
+            "consumo_medio_l_per_100km": 7.84,
+            "velocidad_media_km_per_h": 42.47,
+            "km": 1429.0,
+            "litros": 112.0,
+            "horas": 33.65,
+            "numero_repostajes": 2
+          },
+          {
+            "mes": 3,
+            "anio": 2022,
+            "mes_nombre": "Marzo",
+            "consumo_medio_l_per_100km": 8.05,
+            "velocidad_media_km_per_h": 37.08,
+            "km": 796.0,
+            "litros": 64.1,
+            "horas": 21.47,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 2,
+            "anio": 2022,
+            "mes_nombre": "Febrero",
+            "consumo_medio_l_per_100km": 7.39,
+            "velocidad_media_km_per_h": 54.49,
+            "km": 1662.0,
+            "litros": 122.8,
+            "horas": 30.5,
+            "numero_repostajes": 2
+          },
+          {
+            "mes": 1,
+            "anio": 2022,
+            "mes_nombre": "Enero",
+            "consumo_medio_l_per_100km": 7.87,
+            "velocidad_media_km_per_h": 50.66,
+            "km": 1535.0,
+            "litros": 120.8,
+            "horas": 30.3,
+            "numero_repostajes": 2
+          },
+          {
+            "mes": 11,
+            "anio": 2021,
+            "mes_nombre": "Noviembre",
+            "consumo_medio_l_per_100km": 7.72,
+            "velocidad_media_km_per_h": 53.75,
+            "km": 809.0,
+            "litros": 62.5,
+            "horas": 15.05,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 10,
+            "anio": 2021,
+            "mes_nombre": "Octubre",
+            "consumo_medio_l_per_100km": 7.41,
+            "velocidad_media_km_per_h": 92.12,
+            "km": 1735.0,
+            "litros": 128.6,
+            "horas": 18.83,
+            "numero_repostajes": 2
+          }
+        ],
+        "coste_por_100km_por_ano": [
+          {
+            "anio": 2018,
+            "coste_por_100km_eur": 9.94,
+            "km_totales": 2296.0,
+            "coste_total": 228.21,
+            "numero_repostajes": 4
+          },
+          {
+            "anio": 2019,
+            "coste_por_100km_eur": 10.13,
+            "km_totales": 19686.0,
+            "coste_total": 1994.82,
+            "numero_repostajes": 26
+          },
+          {
+            "anio": 2020,
+            "coste_por_100km_eur": 9.59,
+            "km_totales": 7123.0,
+            "coste_total": 683.11,
+            "numero_repostajes": 9
+          },
+          {
+            "anio": 2021,
+            "coste_por_100km_eur": 10.97,
+            "km_totales": 13953.0,
+            "coste_total": 1530.52,
+            "numero_repostajes": 17
+          },
+          {
+            "anio": 2022,
+            "coste_por_100km_eur": 13.96,
+            "km_totales": 12410.0,
+            "coste_total": 1732.62,
+            "numero_repostajes": 15
+          }
+        ],
+        "lifetime_average_speed_km_per_h": 1.74
       }
     },
     {
@@ -985,12 +1724,12 @@
       "has_temporal_data": true,
       "number_of_periods": 1,
       "total_statistics": {
-        "total_km": 88321.0,
+        "total_km": 966.0,
         "total_litres": 6516.2,
         "total_cost": 10893.21,
         "first_refuel_date": "2022-10-20",
         "last_refuel_date": "2026-11-23",
-        "average_consumption_l_per_100km": 7.38,
+        "average_consumption_l_per_100km": 674.56,
         "total_refuels": 101,
         "yearly_history": [
           {
@@ -1000,7 +1739,8 @@
             "total_cost": 645.75,
             "average_consumption_l_per_100km": 7.52,
             "number_of_refuels": 6,
-            "average_speed": 73.41
+            "average_speed": 73.41,
+            "coste_por_100km_eur": 13.75
           },
           {
             "year": 2023,
@@ -1009,7 +1749,8 @@
             "total_cost": 1947.92,
             "average_consumption_l_per_100km": 7.3,
             "number_of_refuels": 18,
-            "average_speed": 61.71
+            "average_speed": 61.71,
+            "coste_por_100km_eur": 11.79
           },
           {
             "year": 2024,
@@ -1018,7 +1759,8 @@
             "total_cost": 1597.67,
             "average_consumption_l_per_100km": 7.27,
             "number_of_refuels": 15,
-            "average_speed": 54.22
+            "average_speed": 54.22,
+            "coste_por_100km_eur": 11.39
           },
           {
             "year": 2025,
@@ -1027,7 +1769,8 @@
             "total_cost": 1849.07,
             "average_consumption_l_per_100km": 7.17,
             "number_of_refuels": 17,
-            "average_speed": 58.39
+            "average_speed": 58.39,
+            "coste_por_100km_eur": 10.92
           },
           {
             "year": 2026,
@@ -1036,7 +1779,8 @@
             "total_cost": 4852.8,
             "average_consumption_l_per_100km": 7.54,
             "number_of_refuels": 45,
-            "average_speed": 78.65
+            "average_speed": 78.65,
+            "coste_por_100km_eur": 13.43
           }
         ],
         "monthly_history": [
@@ -1187,9 +1931,180 @@
           }
         },
         "monthly_averages": {
-          "average_km_per_month": 1798.3
+          "average_km_per_month": 19.7
         },
-        "lifetime_average_speed_km_per_h": 65.91
+        "ultimos_12_meses": [
+          {
+            "mes": 11,
+            "anio": 2026,
+            "mes_nombre": "Noviembre",
+            "consumo_medio_l_per_100km": 7.73,
+            "velocidad_media_km_per_h": 84.44,
+            "km": 2709.0,
+            "litros": 209.5,
+            "horas": 32.08,
+            "numero_repostajes": 4
+          },
+          {
+            "mes": 10,
+            "anio": 2026,
+            "mes_nombre": "Octubre",
+            "consumo_medio_l_per_100km": 7.35,
+            "velocidad_media_km_per_h": 75.22,
+            "km": 3064.0,
+            "litros": 225.2,
+            "horas": 40.73,
+            "numero_repostajes": 4
+          },
+          {
+            "mes": 9,
+            "anio": 2026,
+            "mes_nombre": "Septiembre",
+            "consumo_medio_l_per_100km": 7.44,
+            "velocidad_media_km_per_h": 85.53,
+            "km": 2141.0,
+            "litros": 159.3,
+            "horas": 25.03,
+            "numero_repostajes": 3
+          },
+          {
+            "mes": 8,
+            "anio": 2026,
+            "mes_nombre": "Agosto",
+            "consumo_medio_l_per_100km": 7.33,
+            "velocidad_media_km_per_h": 66.75,
+            "km": 3707.0,
+            "litros": 271.6,
+            "horas": 55.53,
+            "numero_repostajes": 4
+          },
+          {
+            "mes": 7,
+            "anio": 2026,
+            "mes_nombre": "Julio",
+            "consumo_medio_l_per_100km": 7.56,
+            "velocidad_media_km_per_h": 75.24,
+            "km": 1338.0,
+            "litros": 101.2,
+            "horas": 17.78,
+            "numero_repostajes": 2
+          },
+          {
+            "mes": 6,
+            "anio": 2026,
+            "mes_nombre": "Junio",
+            "consumo_medio_l_per_100km": 7.6,
+            "velocidad_media_km_per_h": 74.09,
+            "km": 4538.0,
+            "litros": 345.1,
+            "horas": 61.25,
+            "numero_repostajes": 6
+          },
+          {
+            "mes": 5,
+            "anio": 2026,
+            "mes_nombre": "Mayo",
+            "consumo_medio_l_per_100km": 7.44,
+            "velocidad_media_km_per_h": 84.82,
+            "km": 3787.0,
+            "litros": 281.9,
+            "horas": 44.65,
+            "numero_repostajes": 5
+          },
+          {
+            "mes": 4,
+            "anio": 2026,
+            "mes_nombre": "Abril",
+            "consumo_medio_l_per_100km": 7.27,
+            "velocidad_media_km_per_h": 74.18,
+            "km": 3621.0,
+            "litros": 263.3,
+            "horas": 48.82,
+            "numero_repostajes": 4
+          },
+          {
+            "mes": 3,
+            "anio": 2026,
+            "mes_nombre": "Marzo",
+            "consumo_medio_l_per_100km": 7.48,
+            "velocidad_media_km_per_h": 94.85,
+            "km": 4189.0,
+            "litros": 313.4,
+            "horas": 44.17,
+            "numero_repostajes": 5
+          },
+          {
+            "mes": 2,
+            "anio": 2026,
+            "mes_nombre": "Febrero",
+            "consumo_medio_l_per_100km": 7.86,
+            "velocidad_media_km_per_h": 80.95,
+            "km": 6206.0,
+            "litros": 488.0,
+            "horas": 76.67,
+            "numero_repostajes": 7
+          },
+          {
+            "mes": 1,
+            "anio": 2026,
+            "mes_nombre": "Enero",
+            "consumo_medio_l_per_100km": 7.78,
+            "velocidad_media_km_per_h": 65.59,
+            "km": 833.0,
+            "litros": 64.8,
+            "horas": 12.7,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 12,
+            "anio": 2025,
+            "mes_nombre": "Diciembre",
+            "consumo_medio_l_per_100km": 7.5,
+            "velocidad_media_km_per_h": 43.06,
+            "km": 966.0,
+            "litros": 72.5,
+            "horas": 22.43,
+            "numero_repostajes": 1
+          }
+        ],
+        "coste_por_100km_por_ano": [
+          {
+            "anio": 2022,
+            "coste_por_100km_eur": 13.75,
+            "km_totales": 4696.0,
+            "coste_total": 645.75,
+            "numero_repostajes": 6
+          },
+          {
+            "anio": 2023,
+            "coste_por_100km_eur": 11.79,
+            "km_totales": 16526.0,
+            "coste_total": 1947.92,
+            "numero_repostajes": 18
+          },
+          {
+            "anio": 2024,
+            "coste_por_100km_eur": 11.39,
+            "km_totales": 14031.0,
+            "coste_total": 1597.67,
+            "numero_repostajes": 15
+          },
+          {
+            "anio": 2025,
+            "coste_por_100km_eur": 10.92,
+            "km_totales": 16935.0,
+            "coste_total": 1849.07,
+            "numero_repostajes": 17
+          },
+          {
+            "anio": 2026,
+            "coste_por_100km_eur": 13.43,
+            "km_totales": 36133.0,
+            "coste_total": 4852.8,
+            "numero_repostajes": 45
+          }
+        ],
+        "lifetime_average_speed_km_per_h": 0.72
       }
     },
     {
@@ -1205,12 +2120,12 @@
       "has_temporal_data": true,
       "number_of_periods": 1,
       "total_statistics": {
-        "total_km": 16110.0,
+        "total_km": 627.0,
         "total_litres": 1128.2,
         "total_cost": 1837.23,
         "first_refuel_date": "2025-02-07",
         "last_refuel_date": "2026-11-09",
-        "average_consumption_l_per_100km": 6.72,
+        "average_consumption_l_per_100km": 172.65,
         "total_refuels": 27,
         "yearly_history": [
           {
@@ -1220,7 +2135,8 @@
             "total_cost": 794.7,
             "average_consumption_l_per_100km": 6.63,
             "number_of_refuels": 11,
-            "average_speed": 33.24
+            "average_speed": 33.24,
+            "coste_por_100km_eur": 11.63
           },
           {
             "year": 2026,
@@ -1229,7 +2145,8 @@
             "total_cost": 1042.53,
             "average_consumption_l_per_100km": 6.79,
             "number_of_refuels": 16,
-            "average_speed": 37.15
+            "average_speed": 37.15,
+            "coste_por_100km_eur": 11.24
           }
         ],
         "monthly_history": [
@@ -1380,9 +2297,137 @@
           }
         },
         "monthly_averages": {
-          "average_km_per_month": 766.2
+          "average_km_per_month": 29.8
         },
-        "lifetime_average_speed_km_per_h": 35.38
+        "ultimos_12_meses": [
+          {
+            "mes": 11,
+            "anio": 2026,
+            "mes_nombre": "Noviembre",
+            "consumo_medio_l_per_100km": 8.19,
+            "velocidad_media_km_per_h": 19.76,
+            "km": 466.0,
+            "litros": 38.2,
+            "horas": 23.58,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 10,
+            "anio": 2026,
+            "mes_nombre": "Octubre",
+            "consumo_medio_l_per_100km": 6.52,
+            "velocidad_media_km_per_h": 39.52,
+            "km": 1847.0,
+            "litros": 120.5,
+            "horas": 46.73,
+            "numero_repostajes": 3
+          },
+          {
+            "mes": 8,
+            "anio": 2026,
+            "mes_nombre": "Agosto",
+            "consumo_medio_l_per_100km": 7.09,
+            "velocidad_media_km_per_h": 43.99,
+            "km": 629.0,
+            "litros": 44.6,
+            "horas": 14.3,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 7,
+            "anio": 2026,
+            "mes_nombre": "Julio",
+            "consumo_medio_l_per_100km": 7.66,
+            "velocidad_media_km_per_h": 30.67,
+            "km": 820.0,
+            "litros": 62.8,
+            "horas": 26.73,
+            "numero_repostajes": 2
+          },
+          {
+            "mes": 6,
+            "anio": 2026,
+            "mes_nombre": "Junio",
+            "consumo_medio_l_per_100km": 8.36,
+            "velocidad_media_km_per_h": 18.92,
+            "km": 549.0,
+            "litros": 45.9,
+            "horas": 29.02,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 4,
+            "anio": 2026,
+            "mes_nombre": "Abril",
+            "consumo_medio_l_per_100km": 5.69,
+            "velocidad_media_km_per_h": 52.09,
+            "km": 1251.0,
+            "litros": 71.2,
+            "horas": 24.02,
+            "numero_repostajes": 2
+          },
+          {
+            "mes": 3,
+            "anio": 2026,
+            "mes_nombre": "Marzo",
+            "consumo_medio_l_per_100km": 8.53,
+            "velocidad_media_km_per_h": 21.11,
+            "km": 505.0,
+            "litros": 43.1,
+            "horas": 23.92,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 2,
+            "anio": 2026,
+            "mes_nombre": "Febrero",
+            "consumo_medio_l_per_100km": 6.95,
+            "velocidad_media_km_per_h": 29.72,
+            "km": 530.0,
+            "litros": 36.9,
+            "horas": 17.83,
+            "numero_repostajes": 1
+          },
+          {
+            "mes": 1,
+            "anio": 2026,
+            "mes_nombre": "Enero",
+            "consumo_medio_l_per_100km": 6.22,
+            "velocidad_media_km_per_h": 61.54,
+            "km": 2679.0,
+            "litros": 166.6,
+            "horas": 43.53,
+            "numero_repostajes": 4
+          },
+          {
+            "mes": 12,
+            "anio": 2025,
+            "mes_nombre": "Diciembre",
+            "consumo_medio_l_per_100km": 7.27,
+            "velocidad_media_km_per_h": 22.66,
+            "km": 627.0,
+            "litros": 45.6,
+            "horas": 27.67,
+            "numero_repostajes": 1
+          }
+        ],
+        "coste_por_100km_por_ano": [
+          {
+            "anio": 2025,
+            "coste_por_100km_eur": 11.63,
+            "km_totales": 6834.0,
+            "coste_total": 794.7,
+            "numero_repostajes": 11
+          },
+          {
+            "anio": 2026,
+            "coste_por_100km_eur": 11.24,
+            "km_totales": 9276.0,
+            "coste_total": 1042.53,
+            "numero_repostajes": 16
+          }
+        ],
+        "lifetime_average_speed_km_per_h": 1.38
       }
     }
   ]
