@@ -3,11 +3,6 @@ import { useFuelStore } from '../../store/fuelStore';
 import { YearlyChart } from '../detail/YearlyChart';
 import { Last12MonthsChart } from './Last12MonthsChart';
 
-const MONTH_NAMES_ES = [
-  'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
-  'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre',
-];
-
 export const GlobalYearlyCharts = () => {
   const { vehicles } = useFuelStore();
 
@@ -103,7 +98,8 @@ export const GlobalYearlyCharts = () => {
       .slice(0, 12)
       .sort((a, b) => a.year - b.year || a.month - b.month)
       .map((m) => ({
-        year: `${MONTH_NAMES_ES[m.month - 1]} ${m.year}`,
+        mes: m.month,
+        anio: m.year,
         consumo_medio_l_per_100km: m.km > 0 ? (m.litres / m.km) * 100 : 0,
         velocidad_media_km_per_h: m.hours > 0 ? m.km / m.hours : 0,
         km: m.km,
