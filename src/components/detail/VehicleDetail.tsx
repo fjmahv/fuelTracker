@@ -9,6 +9,7 @@ import { YearlyChart } from './YearlyChart';
 import { SpeedConsumptionChart } from './SpeedConsumptionChart';
 import { MonthlyChart } from './MonthlyChart';
 import { RefuelComparison } from './RefuelComparison';
+import { Last12MonthsChart } from '../dashboard/Last12MonthsChart';
 
 export const VehicleDetail = () => {
   const { vehicles, selectedVehicleId, selectVehicle } = useFuelStore();
@@ -29,6 +30,16 @@ export const VehicleDetail = () => {
         ? y.total_km / y.number_of_refuels
         : 0,
     })), [stats.yearly_history]);
+
+  // Coste por 100 km por año (mapea anio -> year para reutilizar YearlyChart)
+  const costePer100kmData = useMemo(() =>
+    (stats.coste_por_100km_por_ano || []).map((c: any) => ({
+      year: String(c.anio),
+      coste_por_100km_eur: c.coste_por_100km_eur ?? 0,
+      km_totales: c.km_totales ?? 0,
+      coste_total: c.coste_total ?? 0,
+      numero_repostajes: c.numero_repostajes ?? 0,
+    })), [stats.coste_por_100km_por_ano]);
 
   const firstRow = [
     { label: 'Total KM', value: `${formatNumber(stats.total_km, 0)} km`, icon: MapPin, color: 'text-blue-400' },
@@ -131,6 +142,27 @@ export const VehicleDetail = () => {
                 decimals={1}
                 autoDomain
               />
+          </div>
+        </div>
+
+        {/* NUEVO: Últimos 12 meses y coste por 100 km por año */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="bg-dark-card p-6 rounded-3xl border border-slate-800 shadow-xl">
+              <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6 px-2">Consumo Medio Últimos 12 Meses</h3>
+              <Last12MonthsChart data={stats.ultimos_12_meses} />
+          </div>
+          <div className="bg-dark-card p-6 rounded-3xl border border-slate-800 shadow-xl">
+              <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6 px-2">Coste por 100 km por Año</h3>
+              <div className="flex-grow">
+                  <YearlyChart
+                    data={costePer100kmData}
+                    dataKey="coste_por_100km_eur"
+                    tooltipLabel="Coste por 100 km"
+                    tooltipUnit="€"
+                    decimals={2}
+                    autoDomain
+                  />
+              </div>
           </div>
         </div>
 
